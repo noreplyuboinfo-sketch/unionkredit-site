@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { useTranslations } from 'next-intl';
+import { sendEmailAction } from '@/app/actions/sendEmail';
 import { Reveal } from '../ui/Reveal';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
@@ -14,6 +15,7 @@ import { cn } from '@/lib/utils';
 export function ApplicationForm() {
   const t = useTranslations('form');
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const schema = z.object({
     firstName: z.string().min(2, { message: t('errors.required') }),
@@ -34,9 +36,20 @@ export function ApplicationForm() {
     }
   });
 
-  const onSubmit = (data: FormData) => {
-    console.log('Form Data:', data);
-    setIsSubmitted(true);
+  const onSubmit = async (data: FormData) => {
+    setIsSubmitting(true);
+    try {
+      const result = await sendEmailAction(data);
+      if (result && !result.success) {
+        console.warn("Mail config error:", result.error);
+      }
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error(error);
+      setIsSubmitted(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
