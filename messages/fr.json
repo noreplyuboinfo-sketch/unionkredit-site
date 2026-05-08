@@ -138,9 +138,9 @@
   },
   "legal": {
     "privacyTitle": "Politique de Confidentialité",
-    "privacyBody": "<h4>1. Responsable du traitement</h4><p>Les données collectées via ce site sont traitées par Union-Kredit, responsable de la protection de vos informations personnelles.</p><h4>2. Données collectées</h4><p>Nous collectons les données suivantes : nom, prénom, adresse e-mail, numéro de téléphone, montant du prêt souhaité et durée du crédit.</p><h4>3. Finalité de la collecte</h4><p>Ces données sont utilisées exclusivement pour :<br/>- Analyser votre demande de prêt.<br/>- Vous recontacter avec une proposition commerciale.<br/>- Assurer le suivi de votre dossier.</p><h4>4. Vos droits (RGPD)</h4><p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à unionkredit2@gmail.com.</p>",
+    "privacyBody": "Chez Kredit Union il est important pour nous que vous ayez le choix et le contrôle sur la manière dont nous traitons vos données personnelles. Notre équipe juridique spécialisée dans la confidentialité examine tous nos produits en détail. La confidentialité fait donc partie intégrante de ces derniers.",
     "termsTitle": "Mentions Légales",
-    "termsBody": "<h4>1. Présentation du site</h4><p>Le site Union-Kredit est une plateforme de simulation et de demande de prêt en ligne. Éditeur : Union-Kredit Europe. Hébergeur : Vercel Inc.</p><h4>2. Nature du crédit</h4><p>Les taux affichés (2% fixe) sont donnés à titre indicatif sous réserve d'acceptation finale du dossier. Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</p><h4>3. Propriété intellectuelle</h4><p>Tous les éléments du site (textes, logos, images) sont la propriété exclusive de Union-Kredit.</p>",
+    "termsBody": "Union-Kredit propose des solutions de prêt en ligne à taux fixe. Demandes traitées avec sérieux, données protégées et conditions claires.",
     "close": "Fermer"
   }
 }

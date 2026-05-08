@@ -117,9 +117,9 @@
   },
   "legal": {
     "privacyTitle": "Informativa sulla Privacy",
-    "privacyBody": "<h4>1. Titolare del trattamento</h4><p>I dati sono trattati da Union-Kredit.</p><h4>2. Dati raccolti</h4><p>Nome, cognome, email, telefono, importo e durata del prestito.</p><h4>3. Finalità</h4><p>Analisi della richiesta e contatto per proposta commerciale.</p><h4>4. I vostri diritti (GDPR)</h4><p>Diritto di accesso, rettifica e cancellazione. Contatto: unionkredit2@gmail.com.</p>",
+    "privacyBody": "Presso Kredit Union è importante per noi che abbiate scelta e controllo su come trattiamo i vostri dati personali. Il nostro team legale specializzato nella privacy esamina tutti i nostri prodotti in dettaglio. La privacy è quindi parte integrante di questi ultimi.",
     "termsTitle": "Note Legali",
-    "termsBody": "<h4>1. Presentazione</h4><p>Editore: Union-Kredit Europe. Hosting: Vercel Inc.</p><h4>2. Natura del credito</h4><p>Tassi al 2% fisso indicativi. Un credito ti impegna e deve essere rimborsato.</p><h4>3. Proprietà intellettuale</h4><p>Tutti gli elementi sono di proprietà di Union-Kredit.</p>",
+    "termsBody": "Union-Kredit offre soluzioni di prestito online a tasso fisso. Richieste trattate con serietà, dati protetti e condizioni chiare.",
     "close": "Chiudi"
   }
 }

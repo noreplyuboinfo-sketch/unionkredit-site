@@ -117,9 +117,9 @@
   },
   "legal": {
     "privacyTitle": "Datenschutzerklärung",
-    "privacyBody": "<h4>1. Verantwortlicher</h4><p>Die über diese Website erhobenen Daten werden von Union-Kredit verarbeitet.</p><h4>2. Erhobene Daten</h4><p>Wir erheben: Name, Vorname, E-Mail, Telefonnummer, gewünschter Kreditbetrag und Laufzeit.</p><h4>3. Zweck der Erhebung</h4><p>Analyse Ihres Kreditantrags und Kontaktaufnahme für ein Angebot.</p><h4>4. Ihre Rechte (DSGVO)</h4><p>Sie haben das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten. Kontakt: unionkredit2@gmail.com.</p>",
+    "privacyBody": "Bei Kredit Union ist es uns wichtig, dass Sie die Wahl und Kontrolle darüber haben, wie wir Ihre personenbezogenen Daten verarbeiten. Unser spezialisiertes juristisches Datenschutzteam prüft alle unsere Produkte im Detail. Datenschutz ist daher ein integraler Bestandteil davon.",
     "termsTitle": "Rechtliche Hinweise",
-    "termsBody": "<h4>1. Website-Präsentation</h4><p>Herausgeber: Union-Kredit Europe. Host: Vercel Inc.</p><h4>2. Art des Kredits</h4><p>Die Zinssätze (2% fest) sind indikativ. Ein Kredit verpflichtet Sie und muss zurückgezahlt werden.</p><h4>3. Geistiges Eigentum</h4><p>Alle Elemente sind Eigentum von Union-Kredit.</p>",
+    "termsBody": "Union-Kredit bietet Online-Kreditlösungen mit festem Zinssatz an. Anträge werden seriös bearbeitet, Daten geschützt und klare Bedingungen geschaffen.",
     "close": "Schließen"
   }
 }
