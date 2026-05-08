@@ -1,8 +1,11 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { useState } from 'react';
+import { LegalModal } from '../ui/LegalModal';
 
 export function Footer() {
   const t = useTranslations('footer');
+  const [modalType, setModalType] = useState<'privacy' | 'terms' | null>(null);
 
   return (
     <footer className="bg-ink text-white pt-20 pb-10">
@@ -28,8 +31,22 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-6 text-lg">{t('legal.title')}</h4>
             <ul className="space-y-4 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">{t('legal.privacy')}</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">{t('legal.terms')}</a></li>
+              <li>
+                <button 
+                  onClick={() => setModalType('privacy')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('legal.privacy')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => setModalType('terms')}
+                  className="hover:text-white transition-colors"
+                >
+                  {t('legal.terms')}
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -38,6 +55,12 @@ export function Footer() {
           <div className="font-medium text-gray-400">{t('responsible')}</div>
         </div>
       </div>
+
+      <LegalModal 
+        isOpen={modalType !== null} 
+        onClose={() => setModalType(null)} 
+        type={modalType} 
+      />
     </footer>
   );
 }

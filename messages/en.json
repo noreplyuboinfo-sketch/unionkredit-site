@@ -135,5 +135,12 @@
     },
     "copyright": "All rights reserved.",
     "responsible": "A loan commits you and must be repaid. Verify your repayment capacity before committing."
+  },
+  "legal": {
+    "privacyTitle": "Privacy Policy",
+    "privacyBody": "<h3>1. Data Collection</h3><p>We collect the information you provide via the simulation form...</p><h3>2. Data Use</h3><p>Your data is used exclusively to process your loan request...</p>",
+    "termsTitle": "Terms & Conditions",
+    "termsBody": "<h3>1. Eligibility</h3><p>Credit is reserved for adults residing in Europe...</p><h3>2. Commitment</h3><p>A loan commits you and must be repaid. Verify your repayment capacity before committing.</p>",
+    "close": "Close"
   }
 }

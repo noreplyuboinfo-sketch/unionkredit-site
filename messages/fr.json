@@ -135,5 +135,12 @@
     },
     "copyright": "Tous droits réservés.",
     "responsible": "Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager."
+  },
+  "legal": {
+    "privacyTitle": "Politique de Confidentialité",
+    "privacyBody": "<h3>1. Collecte des données</h3><p>Nous collectons les informations que vous nous fournissez via le formulaire de simulation...</p><h3>2. Utilisation des données</h3><p>Vos données sont utilisées exclusivement pour traiter votre demande de prêt...</p>",
+    "termsTitle": "Conditions Générales",
+    "termsBody": "<h3>1. Conditions d'éligibilité</h3><p>Le crédit est réservé aux personnes majeures résidant en Europe...</p><h3>2. Engagement</h3><p>Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</p>",
+    "close": "Fermer"
   }
 }
