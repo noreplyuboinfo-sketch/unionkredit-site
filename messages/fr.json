@@ -1,0 +1,139 @@
+{
+  "header": {
+    "loans": "Nos Prêts",
+    "howItWorks": "Comment ça marche",
+    "reviews": "Avis",
+    "cta": "Postuler"
+  },
+  "hero": {
+    "badge": "Taux Fixe Garanti à 2 %",
+    "title": "Des prêts professionnels <highlight>rapides et simples.</highlight>",
+    "subtitle": "Financez vos projets avec un taux fixe imbattable. Simulation gratuite en ligne, réponse de principe immédiate.",
+    "ctaPrimary": "Démarrer",
+    "ctaSecondary": "Comment ça marche",
+    "feature1": "Sans frais cachés",
+    "feature2": "Réponse en 24h"
+  },
+  "simulator": {
+    "title": "Simulez votre prêt",
+    "amountLabel": "Montant souhaité",
+    "durationLabel": "Durée",
+    "months": "mois",
+    "monthlyPayment": "Mensualité estimée",
+    "taeg": "TAEG fixe :",
+    "totalCost": "Coût total du crédit",
+    "cta": "Postuler avec ces conditions"
+  },
+  "problem": {
+    "title": "Pourquoi choisir Union-Kredit ?",
+    "items": [
+      { "title": "Rapide", "desc": "Recevez les fonds sous 48h après acceptation définitive de votre dossier." },
+      { "title": "100% en ligne", "desc": "Pas de paperasse interminable. Tout se passe depuis votre canapé." },
+      { "title": "Transparent", "desc": "Un taux fixe à 2 %, sans frais de dossier ni mauvaises surprises." }
+    ]
+  },
+  "offers": {
+    "title": "Un prêt adapté à chaque besoin",
+    "subtitle": "Découvrez nos offres claires et avantageuses.",
+    "upTo": "Jusqu'à",
+    "conso": { "title": "Prêt Personnel", "desc": "Pour tous vos projets de vie.", "amount": "50 000 €" },
+    "immo": { "title": "Prêt Immobilier", "desc": "Concrétisez l'achat de vos rêves.", "amount": "1 000 000 €" },
+    "travaux": { "title": "Prêt Travaux", "desc": "Rénovez ou aménagez votre intérieur.", "amount": "100 000 €" }
+  },
+  "features": {
+    "title": "Les avantages qui font la différence",
+    "subtitle": "Conçu pour vous simplifier la vie.",
+    "items": [
+      { "title": "Réponse immédiate", "desc": "Obtenez un accord de principe en moins de 3 minutes après avoir rempli le formulaire." },
+      { "title": "Taux fixe à 2 %", "desc": "Un taux parmi les plus bas du marché, garanti sur toute la durée du prêt." },
+      { "title": "Sécurité maximale", "desc": "Vos données sont cryptées et stockées sur des serveurs hautement sécurisés en Europe." },
+      { "title": "Service client dédié", "desc": "Nos conseillers sont disponibles 6j/7 pour vous accompagner." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Comment ça marche ?",
+    "items": [
+      { "title": "Simulez votre prêt", "desc": "Utilisez notre calculatrice pour définir le montant et la durée qui vous conviennent le mieux." },
+      { "title": "Remplissez le formulaire", "desc": "Complétez notre formulaire en ligne en quelques clics." },
+      { "title": "Recevez votre offre", "desc": "Une fois votre dossier validé, recevez les fonds directement sur votre compte bancaire." }
+    ]
+  },
+  "form": {
+    "title": "Demande de principe",
+    "subtitle": "Cela ne prend que quelques secondes.",
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "amount": "Montant souhaité",
+      "months": "Durée (mois)"
+    },
+    "errors": {
+      "required": "Ce champ est requis",
+      "email": "Adresse e-mail invalide",
+      "phone": "Numéro de téléphone invalide"
+    },
+    "submit": "Soumettre ma demande",
+    "secureInfo": "Vos informations sont sécurisées et chiffrées (SSL/TLS).",
+    "success": {
+      "title": "Demande envoyée !",
+      "desc": "Nous avons bien reçu votre demande. Un conseiller vous contactera sous 24h."
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "items": [
+      { "name": "Sophie Martin", "role": "Entrepreneuse", "text": "J'ai obtenu mon prêt professionnel en un temps record. Le taux à 2% est imbattable." },
+      { "name": "Marc Dubois", "role": "Particulier", "text": "Le simulateur est super pratique et clair. Pas de mauvaise surprise." },
+      { "name": "Julia R.", "role": "Investisseuse", "text": "Un service client au top qui m'a accompagné du début à la fin." },
+      { "name": "Antoine L.", "role": "Artisan", "text": "Enfin une banque en ligne qui comprend la réalité des artisans." },
+      { "name": "Marie C.", "role": "Commerçante", "text": "J'ai pu rénover mon magasin rapidement grâce à Union-Kredit." },
+      { "name": "Lucas B.", "role": "Freelance", "text": "Simple, rapide, efficace. Tout ce dont on a besoin aujourd'hui." },
+      { "name": "Carlos S.", "role": "Architecte", "text": "La meilleure option pour financer mes projets." },
+      { "name": "Elena F.", "role": "Médecin", "text": "Approbation très rapide, très recommandable." },
+      { "name": "David G.", "role": "Ingénieur", "text": "Transparence totale dès le premier instant." },
+      { "name": "Ana P.", "role": "Designer", "text": "Le simulateur est excellent et précis." }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "2 %", "label": "Taux Fixe" },
+      { "value": "24h", "label": "Délai de réponse" },
+      { "value": "100%", "label": "En ligne" },
+      { "value": "8000+", "label": "Clients satisfaits" }
+    ]
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir.",
+    "items": [
+      { "q": "Quels justificatifs dois-je fournir ?", "a": "Pour la demande de principe, aucun. Les justificatifs vous seront demandés ultérieurement." },
+      { "q": "Puis-je rembourser par anticipation ?", "a": "Oui, vous pouvez rembourser tout ou partie de votre prêt par anticipation, sans pénalités." },
+      { "q": "Le taux à 2 % est-il vraiment garanti ?", "a": "Oui, notre taux nominal est fixe et garanti pour toutes les demandes éligibles." },
+      { "q": "Combien de temps faut-il pour recevoir les fonds ?", "a": "Après signature de l'offre définitive, les fonds sont virés sous 48 à 72h." },
+      { "q": "Ma demande engage-t-elle à quelque chose ?", "a": "Non, la simulation et la demande de principe sont gratuites et sans engagement." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Prêt à financer votre avenir ?",
+    "subtitle": "Rejoignez des milliers de clients satisfaits et profitez de notre taux garanti à 2 %.",
+    "cta": "Faire une demande maintenant"
+  },
+  "footer": {
+    "about": "Union-Kredit réinvente le crédit en ligne avec des solutions simples, transparentes et rapides.",
+    "links": {
+      "title": "Navigation",
+      "loans": "Nos Prêts",
+      "howItWorks": "Comment ça marche",
+      "reviews": "Avis"
+    },
+    "legal": {
+      "title": "Légal",
+      "privacy": "Politique de confidentialité",
+      "terms": "Mentions légales"
+    },
+    "copyright": "Tous droits réservés.",
+    "responsible": "Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager."
+  }
+}

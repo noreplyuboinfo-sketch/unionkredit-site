@@ -1,0 +1,118 @@
+{
+  "header": { "loans": "I nostri Prestiti", "howItWorks": "Come funziona", "reviews": "Recensioni", "cta": "Richiedi" },
+  "hero": {
+    "badge": "Tasso Fisso Garantito 2%",
+    "title": "Prestiti professionali <highlight>rapidi e semplici.</highlight>",
+    "subtitle": "Finanzia i tuoi progetti con un tasso fisso imbattibile. Simulazione online gratuita, risposta preliminare immediata.",
+    "ctaPrimary": "Inizia",
+    "ctaSecondary": "Come funziona",
+    "feature1": "Nessun costo nascosto",
+    "feature2": "Risposta in 24h"
+  },
+  "simulator": {
+    "title": "Simula il tuo prestito",
+    "amountLabel": "Importo desiderato",
+    "durationLabel": "Durata",
+    "months": "mesi",
+    "monthlyPayment": "Rata mensile stimata",
+    "taeg": "TAEG fisso:",
+    "totalCost": "Costo totale del credito",
+    "cta": "Richiedi con queste condizioni"
+  },
+  "problem": {
+    "title": "Perché scegliere Union-Kredit?",
+    "items": [
+      { "title": "Veloce", "desc": "Ricevi i fondi in 48h dopo l'accettazione finale." },
+      { "title": "100% Online", "desc": "Nessuna scartoffia." },
+      { "title": "Trasparente", "desc": "Tasso fisso del 2%, nessuna sorpresa." }
+    ]
+  },
+  "offers": {
+    "title": "Un prestito adatto ad ogni esigenza",
+    "subtitle": "Scopri le nostre offerte.",
+    "upTo": "Fino a",
+    "conso": { "title": "Prestito Personale", "desc": "Per i tuoi progetti.", "amount": "50.000 €" },
+    "immo": { "title": "Mutuo", "desc": "Acquista la tua casa dei sogni.", "amount": "1.000.000 €" },
+    "travaux": { "title": "Prestito Ristrutturazione", "desc": "Rinnova la tua casa.", "amount": "100.000 €" }
+  },
+  "features": {
+    "title": "I vantaggi",
+    "subtitle": "Progettato per semplificarti la vita.",
+    "items": [
+      { "title": "Risposta immediata", "desc": "Accordo in 3 minuti." },
+      { "title": "Tasso fisso 2%", "desc": "Il migliore sul mercato." },
+      { "title": "Massima sicurezza", "desc": "Dati crittografati in Europa." },
+      { "title": "Supporto dedicato", "desc": "Consulenti disponibili 6 giorni a settimana." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Come funziona?",
+    "items": [
+      { "title": "Simula", "desc": "Usa la nostra calcolatrice." },
+      { "title": "Compila il modulo", "desc": "Compila il modulo online." },
+      { "title": "Ricevi", "desc": "Ricevi i fondi." }
+    ]
+  },
+  "form": {
+    "title": "Richiesta preliminare",
+    "subtitle": "Richiede solo pochi secondi.",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "E-mail",
+      "phone": "Telefono",
+      "amount": "Importo",
+      "months": "Mesi"
+    },
+    "errors": { "required": "Obbligatorio", "email": "E-mail non valida", "phone": "Telefono non valido" },
+    "submit": "Invia richiesta",
+    "secureInfo": "Informazioni sicure.",
+    "success": { "title": "Inviato!", "desc": "Ti contatteremo in 24h." }
+  },
+  "testimonials": {
+    "title": "Cosa dicono i nostri clienti",
+    "items": [
+      { "name": "Sophie M.", "role": "Imprenditrice", "text": "Veloce e al 2%." },
+      { "name": "Marc D.", "role": "Privato", "text": "Nessuna sorpresa." },
+      { "name": "Julia R.", "role": "Investitrice", "text": "Servizio top." },
+      { "name": "Antoine L.", "role": "Artigiano", "text": "Capiscono la realtà." },
+      { "name": "Marie C.", "role": "Commerciante", "text": "Ho potuto rinnovare rapidamente." },
+      { "name": "Lucas B.", "role": "Freelance", "text": "Semplice ed efficace." },
+      { "name": "Carlos S.", "role": "Architetto", "text": "La migliore opzione per i miei progetti." },
+      { "name": "Elena F.", "role": "Dottoressa", "text": "Approvazione molto rapida." },
+      { "name": "David G.", "role": "Ingegnere", "text": "Trasparenza totale." },
+      { "name": "Ana P.", "role": "Designer", "text": "Il simulatore è eccellente." }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "2%", "label": "Tasso Fisso" },
+      { "value": "24h", "label": "Risposta" },
+      { "value": "100%", "label": "Online" },
+      { "value": "8000+", "label": "Clienti soddisfatti" }
+    ]
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Tutto ciò che devi sapere.",
+    "items": [
+      { "q": "Documenti?", "a": "Nessuno per ora." },
+      { "q": "Pagamento anticipato?", "a": "Sì, senza penali." },
+      { "q": "Tasso garantito?", "a": "Sì, 2%." },
+      { "q": "Tempo di ricezione?", "a": "Da 48 a 72h." },
+      { "q": "Vincolante?", "a": "No." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Pronto a finanziare il tuo futuro?",
+    "subtitle": "Unisciti a noi.",
+    "cta": "Richiedi ora"
+  },
+  "footer": {
+    "about": "Union-Kredit reinventa il credito.",
+    "links": { "title": "Navigazione", "loans": "Prestiti", "howItWorks": "Come funziona", "reviews": "Recensioni" },
+    "legal": { "title": "Legale", "privacy": "Privacy", "terms": "Termini" },
+    "copyright": "Tutti i diritti riservati.",
+    "responsible": "Un prestito è vincolante e deve essere rimborsato."
+  }
+}

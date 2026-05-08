@@ -1,0 +1,118 @@
+{
+  "header": { "loans": "Unsere Kredite", "howItWorks": "Wie es funktioniert", "reviews": "Bewertungen", "cta": "Beantragen" },
+  "hero": {
+    "badge": "Fester Zinssatz Garantiert 2%",
+    "title": "Professionelle Kredite <highlight>schnell und einfach.</highlight>",
+    "subtitle": "Finanzieren Sie Ihre Projekte mit einem unschlagbaren festen Zinssatz. Kostenlose Online-Simulation, sofortige vorläufige Antwort.",
+    "ctaPrimary": "Loslegen",
+    "ctaSecondary": "Wie es funktioniert",
+    "feature1": "Keine versteckten Gebühren",
+    "feature2": "Antwort in 24h"
+  },
+  "simulator": {
+    "title": "Kredit simulieren",
+    "amountLabel": "Wunschbetrag",
+    "durationLabel": "Laufzeit",
+    "months": "Monate",
+    "monthlyPayment": "Geschätzte monatliche Rate",
+    "taeg": "Fester effektiver Jahreszins:",
+    "totalCost": "Gesamtkosten des Kredits",
+    "cta": "Mit diesen Konditionen beantragen"
+  },
+  "problem": {
+    "title": "Warum Union-Kredit?",
+    "items": [
+      { "title": "Schnell", "desc": "Erhalten Sie das Geld innerhalb von 48h nach endgültiger Annahme." },
+      { "title": "100% Online", "desc": "Kein endloser Papierkram." },
+      { "title": "Transparent", "desc": "Fester Zinssatz von 2%, keine Überraschungen." }
+    ]
+  },
+  "offers": {
+    "title": "Ein Kredit für jeden Bedarf",
+    "subtitle": "Entdecken Sie unsere Angebote.",
+    "upTo": "Bis zu",
+    "conso": { "title": "Privatkredit", "desc": "Für alle Ihre Projekte.", "amount": "50.000 €" },
+    "immo": { "title": "Immobilienkredit", "desc": "Kaufen Sie Ihr Traumhaus.", "amount": "1.000.000 €" },
+    "travaux": { "title": "Renovierungskredit", "desc": "Renovieren Sie Ihr Zuhause.", "amount": "100.000 €" }
+  },
+  "features": {
+    "title": "Die Vorteile",
+    "subtitle": "Entwickelt, um Ihr Leben zu vereinfachen.",
+    "items": [
+      { "title": "Sofortige Antwort", "desc": "Zustimmung in 3 Minuten." },
+      { "title": "Fester Zinssatz 2%", "desc": "Der beste auf dem Markt." },
+      { "title": "Maximale Sicherheit", "desc": "Verschlüsselte Daten in Europa." },
+      { "title": "Kundensupport", "desc": "6 Tage die Woche verfügbar." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Wie es funktioniert?",
+    "items": [
+      { "title": "Simulieren", "desc": "Nutzen Sie unseren Rechner." },
+      { "title": "Formular ausfüllen", "desc": "Füllen Sie das Online-Formular aus." },
+      { "title": "Geld erhalten", "desc": "Erhalten Sie das Geld." }
+    ]
+  },
+  "form": {
+    "title": "Vorläufiger Antrag",
+    "subtitle": "Dauert nur wenige Sekunden.",
+    "fields": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "amount": "Betrag",
+      "months": "Monate"
+    },
+    "errors": { "required": "Erforderlich", "email": "Ungültige E-Mail", "phone": "Ungültige Telefonnummer" },
+    "submit": "Antrag senden",
+    "secureInfo": "Sichere Informationen.",
+    "success": { "title": "Gesendet!", "desc": "Wir kontaktieren Sie in 24h." }
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "items": [
+      { "name": "Sophie M.", "role": "Unternehmerin", "text": "Schnell und 2%." },
+      { "name": "Marc D.", "role": "Privatperson", "text": "Keine Überraschungen." },
+      { "name": "Julia R.", "role": "Investorin", "text": "Top Service." },
+      { "name": "Antoine L.", "role": "Handwerker", "text": "Verstehen die Realität." },
+      { "name": "Marie C.", "role": "Kauffrau", "text": "Konnte schnell renovieren." },
+      { "name": "Lucas B.", "role": "Freelancer", "text": "Einfach und effizient." },
+      { "name": "Carlos S.", "role": "Architekt", "text": "Die beste Wahl für meine Projekte." },
+      { "name": "Elena F.", "role": "Ärztin", "text": "Sehr schnelle Genehmigung." },
+      { "name": "David G.", "role": "Ingenieur", "text": "Volle Transparenz von Anfang an." },
+      { "name": "Ana P.", "role": "Designerin", "text": "Der Simulator ist exzellent." }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "2%", "label": "Fester Zins" },
+      { "value": "24h", "label": "Antwortzeit" },
+      { "value": "100%", "label": "Online" },
+      { "value": "8000+", "label": "Zufriedene Kunden" }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was Sie wissen müssen.",
+    "items": [
+      { "q": "Dokumente?", "a": "Vorerst keine." },
+      { "q": "Vorzeitige Rückzahlung?", "a": "Ja, ohne Strafe." },
+      { "q": "Garantierter Zins?", "a": "Ja, 2%." },
+      { "q": "Überweisungsdauer?", "a": "48 bis 72h." },
+      { "q": "Verbindlich?", "a": "Nein." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Bereit für Ihre Zukunft?",
+    "subtitle": "Schließen Sie sich an.",
+    "cta": "Jetzt beantragen"
+  },
+  "footer": {
+    "about": "Union-Kredit erfindet Kredite neu.",
+    "links": { "title": "Navigation", "loans": "Kredite", "howItWorks": "Wie es funktioniert", "reviews": "Bewertungen" },
+    "legal": { "title": "Rechtliches", "privacy": "Datenschutz", "terms": "AGB" },
+    "copyright": "Alle Rechte vorbehalten.",
+    "responsible": "Ein Kredit ist verbindlich und muss zurückgezahlt werden."
+  }
+}

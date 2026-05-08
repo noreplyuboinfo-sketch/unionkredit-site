@@ -1,0 +1,118 @@
+{
+  "header": { "loans": "Vores Lån", "howItWorks": "Sådan fungerer det", "reviews": "Anmeldelser", "cta": "Ansøg" },
+  "hero": {
+    "badge": "Fast rente garanteret 2%",
+    "title": "Professionelle lån gjort <highlight>hurtige og enkle.</highlight>",
+    "subtitle": "Finansier dine projekter med en uovertruffen fast rente. Gratis online simulering, øjeblikkeligt foreløbigt svar.",
+    "ctaPrimary": "Kom i gang",
+    "ctaSecondary": "Sådan fungerer det",
+    "feature1": "Ingen skjulte gebyrer",
+    "feature2": "Svar inden for 24 timer"
+  },
+  "simulator": {
+    "title": "Simuler dit lån",
+    "amountLabel": "Ønsket beløb",
+    "durationLabel": "Varighed",
+    "months": "måneder",
+    "monthlyPayment": "Estimeret månedlig ydelse",
+    "taeg": "Fast ÅOP:",
+    "totalCost": "Samlede kreditomkostninger",
+    "cta": "Ansøg med disse betingelser"
+  },
+  "problem": {
+    "title": "Hvorfor vælge Union-Kredit?",
+    "items": [
+      { "title": "Hurtig", "desc": "Modtag midlerne inden for 48 timer efter endelig accept." },
+      { "title": "100% Online", "desc": "Ingen uendelig papirarbejde." },
+      { "title": "Gennemsigtig", "desc": "Fast rente på 2%, ingen overraskelser." }
+    ]
+  },
+  "offers": {
+    "title": "Et lån tilpasset ethvert behov",
+    "subtitle": "Opdag vores tilbud.",
+    "upTo": "Op til",
+    "conso": { "title": "Personligt Lån", "desc": "Til dine projekter.", "amount": "50.000 €" },
+    "immo": { "title": "Boliglån", "desc": "Køb dit drømmehjem.", "amount": "1.000.000 €" },
+    "travaux": { "title": "Renoveringslån", "desc": "Renover dit hjem.", "amount": "100.000 €" }
+  },
+  "features": {
+    "title": "Fordelene",
+    "subtitle": "Designet til at forenkle dit liv.",
+    "items": [
+      { "title": "Øjeblikkeligt svar", "desc": "Aftale på 3 minutter." },
+      { "title": "Fast rente 2%", "desc": "Markedets bedste." },
+      { "title": "Maksimal sikkerhed", "desc": "Krypterede data i Europa." },
+      { "title": "Dedikeret support", "desc": "Rådgivere til rådighed 6 dage om ugen." }
+    ]
+  },
+  "howItWorks": {
+    "title": "Hvordan fungerer det?",
+    "items": [
+      { "title": "Simuler", "desc": "Brug vores lommeregner." },
+      { "title": "Udfyld formularen", "desc": "Udfyld online." },
+      { "title": "Modtag", "desc": "Modtag midlerne." }
+    ]
+  },
+  "form": {
+    "title": "Foreløbig ansøgning",
+    "subtitle": "Tager kun et par sekunder.",
+    "fields": {
+      "firstName": "Fornavn",
+      "lastName": "Efternavn",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "amount": "Beløp",
+      "months": "Måneder"
+    },
+    "errors": { "required": "Påkrævet", "email": "Ugyldig e-mail", "phone": "Ugyldig telefon" },
+    "submit": "Send ansøgning",
+    "secureInfo": "Sikker information.",
+    "success": { "title": "Sendt!", "desc": "Vi kontakter dig inden for 24 timer." }
+  },
+  "testimonials": {
+    "title": "Hvad vores kunder siger",
+    "items": [
+      { "name": "Sophie M.", "role": "Iværksætter", "text": "Hurtigt og til 2%." },
+      { "name": "Marc D.", "role": "Privatperson", "text": "Ingen overraskelser." },
+      { "name": "Julia R.", "role": "Investor", "text": "Top service." },
+      { "name": "Antoine L.", "role": "Håndværker", "text": "Forstår virkeligheden." },
+      { "name": "Marie C.", "role": "Købmand", "text": "Kunne renovere hurtigt." },
+      { "name": "Lucas B.", "role": "Freelancer", "text": "Enkelt og effektivt." },
+      { "name": "Carlos S.", "role": "Arkitekt", "text": "Det bedste valg." },
+      { "name": "Elena F.", "role": "Læge", "text": "Meget hurtig godkendelse." },
+      { "name": "David G.", "role": "Ingeniør", "text": "Fuld gennemsigtighed." },
+      { "name": "Ana P.", "role": "Designer", "text": "Simulatoren er fremragende." }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "2%", "label": "Fast rente" },
+      { "value": "24t", "label": "Svartid" },
+      { "value": "100%", "label": "Online" },
+      { "value": "8000+", "label": "Tilfredse kunder" }
+    ]
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål",
+    "subtitle": "Alt hvad du behøver at vide.",
+    "items": [
+      { "q": "Dokumenter?", "a": "Ingen lige nu." },
+      { "q": "Tidlig tilbagebetaling?", "a": "Ja, uden gebyr." },
+      { "q": "Garanteret rente?", "a": "Ja, 2%." },
+      { "q": "Modtagelsestid?", "a": "48 til 72 timer." },
+      { "q": "Bindende?", "a": "Nej." }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Klar til at finansiere din fremtid?",
+    "subtitle": "Slut dig til os.",
+    "cta": "Ansøg nu"
+  },
+  "footer": {
+    "about": "Union-Kredit genopfinder kredit.",
+    "links": { "title": "Navigation", "loans": "Lån", "howItWorks": "Sådan fungerer det", "reviews": "Anmeldelser" },
+    "legal": { "title": "Juridisk", "privacy": "Privatliv", "terms": "Vilkår" },
+    "copyright": "Alle rettigheder forbeholdes.",
+    "responsible": "Et lån er bindende og skal tilbagebetales."
+  }
+}
