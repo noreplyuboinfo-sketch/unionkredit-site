@@ -113,6 +113,13 @@
     "links": { "title": "Navigasjon", "loans": "Lån", "howItWorks": "Hvordan det fungerer", "reviews": "Anmeldelser" },
     "legal": { "title": "Juridisk", "privacy": "Personvern", "terms": "Vilkår" },
     "copyright": "Alle rettigheter reservert.",
-    "responsible": "Et lån er bindende og må tilbakebetales."
+    "responsible": "Et lån forplikter deg og må tilbakebetales. Sjekk din tilbakebetalingskapasitet før du forplikter deg."
+  },
+  "legal": {
+    "privacyTitle": "Personvernserklæring",
+    "privacyBody": "<h4>1. Behandlingsansvarlig</h4><p>Data behandles av Union-Kredit.</p><h4>2. Data som samles inn</h4><p>Navn, e-post, telefon, lånebeløp og varighet.</p><h4>3. Formål</h4><p>Analyse av din søknad og kontakt for tilbud.</p><h4>4. Dine rettigheter (GDPR)</h4><p>Rett til innsyn, retting og sletting. Kontakt: unionkredit2@gmail.com.</p>",
+    "termsTitle": "Juridiske Merknader",
+    "termsBody": "<h4>1. Presentasjon</h4><p>Utgiver: Union-Kredit Europe. Hosting: Vercel Inc.</p><h4>2. Kredittens natur</h4><p>Rente 2% fast veiledende. Et lån forplikter deg og må tilbakebetales.</p><h4>3. Immaterielle rettigheter</h4><p>Alle elementer tilhører Union-Kredit.</p>",
+    "close": "Lukk"
   }
 }

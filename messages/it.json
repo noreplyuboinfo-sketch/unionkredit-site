@@ -113,6 +113,13 @@
     "links": { "title": "Navigazione", "loans": "Prestiti", "howItWorks": "Come funziona", "reviews": "Recensioni" },
     "legal": { "title": "Legale", "privacy": "Privacy", "terms": "Termini" },
     "copyright": "Tutti i diritti riservati.",
-    "responsible": "Un prestito è vincolante e deve essere rimborsato."
+    "responsible": "Un credito ti impegna e deve essere rimborsato. Verifica le tue capacità di rimborso prima di impegnarti."
+  },
+  "legal": {
+    "privacyTitle": "Informativa sulla Privacy",
+    "privacyBody": "<h4>1. Titolare del trattamento</h4><p>I dati sono trattati da Union-Kredit.</p><h4>2. Dati raccolti</h4><p>Nome, cognome, email, telefono, importo e durata del prestito.</p><h4>3. Finalità</h4><p>Analisi della richiesta e contatto per proposta commerciale.</p><h4>4. I vostri diritti (GDPR)</h4><p>Diritto di accesso, rettifica e cancellazione. Contatto: unionkredit2@gmail.com.</p>",
+    "termsTitle": "Note Legali",
+    "termsBody": "<h4>1. Presentazione</h4><p>Editore: Union-Kredit Europe. Hosting: Vercel Inc.</p><h4>2. Natura del credito</h4><p>Tassi al 2% fisso indicativi. Un credito ti impegna e deve essere rimborsato.</p><h4>3. Proprietà intellettuale</h4><p>Tutti gli elementi sono di proprietà di Union-Kredit.</p>",
+    "close": "Chiudi"
   }
 }

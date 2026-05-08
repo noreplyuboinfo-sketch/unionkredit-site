@@ -113,6 +113,13 @@
     "links": { "title": "Navegação", "loans": "Empréstimos", "howItWorks": "Como funciona", "reviews": "Avaliações" },
     "legal": { "title": "Legal", "privacy": "Privacidade", "terms": "Termos" },
     "copyright": "Todos os direitos reservados.",
-    "responsible": "Um crédito é vinculativo e deve ser reembolsado."
+    "responsible": "Um crédito compromete-o e deve ser reembolsado. Verifique a sua capacidade de reembolso antes de se comprometer."
+  },
+  "legal": {
+    "privacyTitle": "Política de Privacidade",
+    "privacyBody": "<h4>1. Responsável pelo tratamento</h4><p>Os dados são tratados pela Union-Kredit.</p><h4>2. Dados recolhidos</h4><p>Nome, email, telefone, montante e duração do empréstimo.</p><h4>3. Finalidade</h4><p>Análise do pedido e contacto para proposta.</p><h4>4. Seus direitos (RGPD)</h4><p>Direito de acesso, retificação e eliminação. Contacto: unionkredit2@gmail.com.</p>",
+    "termsTitle": "Avisos Legais",
+    "termsBody": "<h4>1. Apresentação</h4><p>Editor: Union-Kredit Europe. Alojamento: Vercel Inc.</p><h4>2. Natureza do crédito</h4><p>Taxas de 2% fixo indicativas. Um crédito compromete-o e deve ser reembolsado.</p><h4>3. Propriedade intelectual</h4><p>Todos os elementos são propriedade da Union-Kredit.</p>",
+    "close": "Fechar"
   }
 }

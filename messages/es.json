@@ -113,6 +113,13 @@
     "links": { "title": "Navegación", "loans": "Préstamos", "howItWorks": "Cómo funciona", "reviews": "Opiniones" },
     "legal": { "title": "Legal", "privacy": "Privacidad", "terms": "Términos" },
     "copyright": "Derechos reservados.",
-    "responsible": "Un préstamo compromete y debe ser reembolsado."
+    "responsible": "Un crédito le compromete y debe ser reembolsado. Vérifiez vos capacités de remboursement avant de vous engager."
+  },
+  "legal": {
+    "privacyTitle": "Política de Privacidad",
+    "privacyBody": "<h4>1. Responsable del tratamiento</h4><p>Los datos recogidos son tratados por Union-Kredit.</p><h4>2. Datos recogidos</h4><p>Nombre, apellidos, email, teléfono, importe y duración del préstamo.</p><h4>3. Finalidad</h4><p>Analizar su solicitud y contactarle con una propuesta.</p><h4>4. Sus derechos (RGPD)</h4><p>Tiene derecho de acceso, rectificación y supresión. Contacto: unionkredit2@gmail.com.</p>",
+    "termsTitle": "Aviso Legal",
+    "termsBody": "<h4>1. Presentación</h4><p>Editor: Union-Kredit Europe. Alojamiento: Vercel Inc.</p><h4>2. Naturaleza del crédito</h4><p>Tipos del 2% fijo indicativos. Un crédito le compromete y debe ser reembolsado.</p><h4>3. Propiedad intelectual</h4><p>Todos los elementos son propiedad de Union-Kredit.</p>",
+    "close": "Cerrar"
   }
 }
