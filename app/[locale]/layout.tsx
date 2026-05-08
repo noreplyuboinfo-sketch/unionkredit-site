@@ -34,7 +34,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${manrope.variable} scroll-smooth`} suppressHydrationWarning>
-      <body suppressHydrationWarning>
+      <body className="overflow-x-hidden w-full" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

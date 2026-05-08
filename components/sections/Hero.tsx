@@ -18,12 +18,12 @@ export function Hero() {
       <FloatingElements />
       
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
-        <Reveal delay={100} className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left w-full">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand/10 text-brand font-bold text-xs sm:text-sm mb-6 max-w-full">
+        <Reveal delay={100} className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left w-full overflow-hidden">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand/10 text-brand font-bold text-[11px] sm:text-sm mb-6 max-w-full">
             <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-current shrink-0" />
-            <span className="truncate sm:whitespace-normal">{t('badge')}</span>
+            <span className="truncate sm:whitespace-normal px-1">{t('badge')}</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-ink leading-[1.15] tracking-tight mb-6 w-full break-words">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-ink leading-[1.15] tracking-tight mb-6 w-full break-words text-center lg:text-left">
             {t.rich('title', {
               highlight: (chunks) => (
                 <span className="relative inline-block text-brand z-10">
@@ -32,19 +32,19 @@ export function Hero() {
               )
             })}
           </h1>
-          <p className="text-lg md:text-xl text-ink2 mb-8 max-w-lg leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-ink2 mb-8 max-w-lg leading-relaxed text-center lg:text-left">
             {t('subtitle')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12 w-full sm:w-auto items-center sm:items-stretch">
             <Button 
               withChevron 
               onClick={() => document.getElementById('application-form')?.scrollIntoView({behavior: 'smooth'})}
-              className="w-full sm:w-auto"
+              className="w-full sm:w-auto min-w-[200px]"
             >
               {t('ctaPrimary')}
             </Button>
-            <Button variant="outline" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({behavior: 'smooth'})} className="w-full sm:w-auto">
+            <Button variant="outline" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({behavior: 'smooth'})} className="w-full sm:w-auto min-w-[200px]">
               {t('ctaSecondary')}
             </Button>
           </div>

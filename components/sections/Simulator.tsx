@@ -22,7 +22,7 @@ export function Simulator() {
   };
 
   return (
-    <Card className="p-4 sm:p-8 md:p-12 max-w-xl mx-auto relative overflow-hidden w-full">
+    <Card className="p-4 sm:p-8 md:p-12 max-w-xl mx-auto relative overflow-hidden w-full box-border">
       <h3 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-8 text-ink">{t('title')}</h3>
       
       <div className="space-y-8 sm:space-y-10">
