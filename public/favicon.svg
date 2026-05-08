@@ -1,4 +1,5 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/256/svg">
-  <rect width="256" height="256" rx="64" fill="#2D6FF2"/>
-  <text x="128" y="145" font-family="sans-serif" font-size="120" font-weight="900" fill="white" text-anchor="middle" dominant-baseline="middle">UK</text>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#2D6FF2"/>
+  <path d="M10 10V22M10 16L14 10M10 16L14 22" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 10V18C18 20.2091 19.7909 22 22 22C24.2091 22 26 20.2091 26 18V10" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
