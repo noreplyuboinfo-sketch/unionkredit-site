@@ -138,9 +138,9 @@
   },
   "legal": {
     "privacyTitle": "Privacy Policy",
-    "privacyBody": "<h3>1. Data Collection</h3><p>We collect the information you provide via the simulation form...</p><h3>2. Data Use</h3><p>Your data is used exclusively to process your loan request...</p>",
-    "termsTitle": "Terms & Conditions",
-    "termsBody": "<h3>1. Eligibility</h3><p>Credit is reserved for adults residing in Europe...</p><h3>2. Commitment</h3><p>A loan commits you and must be repaid. Verify your repayment capacity before committing.</p>",
+    "privacyBody": "<h4>1. Data Controller</h4><p>The data collected via this site is processed by Union-Kredit, responsible for the protection of your personal information.</p><h4>2. Data Collected</h4><p>We collect the following data: first name, last name, email address, phone number, desired loan amount, and credit duration.</p><h4>3. Purpose of Collection</h4><p>This data is used exclusively to:<br/>- Analyze your loan request.<br/>- Contact you with a commercial proposal.<br/>- Follow up on your application.</p><h4>4. Your Rights (GDPR)</h4><p>In accordance with GDPR, you have the right to access, rectify, delete, and object to the processing of your personal data. To exercise these rights, contact us at unionkredit2@gmail.com.</p>",
+    "termsTitle": "Legal Mentions",
+    "termsBody": "<h4>1. Site Presentation</h4><p>The Union-Kredit website is an online loan simulation and application platform. Publisher: Union-Kredit Europe. Hosting: Vercel Inc.</p><h4>2. Nature of Credit</h4><p>The displayed rates (2% fixed) are indicative subject to final application approval. A loan is binding and must be repaid. Check your repayment capacity before committing.</p><h4>3. Intellectual Property</h4><p>All site elements (texts, logos, images) are the exclusive property of Union-Kredit.</p>",
     "close": "Close"
   }
 }

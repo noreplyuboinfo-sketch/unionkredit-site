@@ -138,9 +138,9 @@
   },
   "legal": {
     "privacyTitle": "Politique de Confidentialité",
-    "privacyBody": "<h3>1. Collecte des données</h3><p>Nous collectons les informations que vous nous fournissez via le formulaire de simulation...</p><h3>2. Utilisation des données</h3><p>Vos données sont utilisées exclusivement pour traiter votre demande de prêt...</p>",
-    "termsTitle": "Conditions Générales",
-    "termsBody": "<h3>1. Conditions d'éligibilité</h3><p>Le crédit est réservé aux personnes majeures résidant en Europe...</p><h3>2. Engagement</h3><p>Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</p>",
+    "privacyBody": "<h4>1. Responsable du traitement</h4><p>Les données collectées via ce site sont traitées par Union-Kredit, responsable de la protection de vos informations personnelles.</p><h4>2. Données collectées</h4><p>Nous collectons les données suivantes : nom, prénom, adresse e-mail, numéro de téléphone, montant du prêt souhaité et durée du crédit.</p><h4>3. Finalité de la collecte</h4><p>Ces données sont utilisées exclusivement pour :<br/>- Analyser votre demande de prêt.<br/>- Vous recontacter avec une proposition commerciale.<br/>- Assurer le suivi de votre dossier.</p><h4>4. Vos droits (RGPD)</h4><p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à unionkredit2@gmail.com.</p>",
+    "termsTitle": "Mentions Légales",
+    "termsBody": "<h4>1. Présentation du site</h4><p>Le site Union-Kredit est une plateforme de simulation et de demande de prêt en ligne. Éditeur : Union-Kredit Europe. Hébergeur : Vercel Inc.</p><h4>2. Nature du crédit</h4><p>Les taux affichés (2% fixe) sont donnés à titre indicatif sous réserve d'acceptation finale du dossier. Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.</p><h4>3. Propriété intellectuelle</h4><p>Tous les éléments du site (textes, logos, images) sont la propriété exclusive de Union-Kredit.</p>",
     "close": "Fermer"
   }
 }
