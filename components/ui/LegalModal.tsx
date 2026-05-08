@@ -44,12 +44,10 @@ export function LegalModal({ isOpen, onClose, type }: LegalModalProps) {
           </button>
         </div>
         
-        <div className="p-8 overflow-y-auto prose prose-slate max-w-none prose-headings:font-black prose-headings:text-ink prose-p:text-ink2 prose-p:leading-relaxed prose-li:text-ink2">
-          {type === 'privacy' ? (
-            <div dangerouslySetInnerHTML={{ __html: t.raw('privacyBody') }} />
-          ) : (
-            <div dangerouslySetInnerHTML={{ __html: t.raw('termsBody') }} />
-          )}
+        <div className="p-8 overflow-y-auto max-w-none text-ink2 leading-relaxed space-y-4">
+          <div className="text-lg">
+            {type === 'privacy' ? t('privacyBody') : t('termsBody')}
+          </div>
         </div>
         
         <div className="p-6 border-t bg-bg/30 flex justify-end">
