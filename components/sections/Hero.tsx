@@ -18,12 +18,12 @@ export function Hero() {
       <FloatingElements />
       
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
-        <Reveal delay={100} className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand/10 text-brand font-bold text-sm mb-6">
-            <Star className="w-4 h-4 fill-current" />
-            {t('badge')}
+        <Reveal delay={100} className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left w-full">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand/10 text-brand font-bold text-xs sm:text-sm mb-6 max-w-full">
+            <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-current shrink-0" />
+            <span className="truncate sm:whitespace-normal">{t('badge')}</span>
           </div>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-ink leading-[1.1] tracking-tight mb-6 max-w-2xl">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-ink leading-[1.15] tracking-tight mb-6 w-full break-words">
             {t.rich('title', {
               highlight: (chunks) => (
                 <span className="relative inline-block text-brand z-10">
@@ -49,14 +49,14 @@ export function Hero() {
             </Button>
           </div>
           
-          <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-8 gap-y-4 text-sm font-medium text-ink2">
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-5 h-5 text-brand" />
-              {t('feature1')}
+          <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-3 text-xs sm:text-sm font-medium text-ink2 w-full">
+            <div className="flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-brand shrink-0" />
+              <span>{t('feature1')}</span>
             </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-5 h-5 text-brand" />
-              {t('feature2')}
+            <div className="flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-brand shrink-0" />
+              <span>{t('feature2')}</span>
             </div>
           </div>
         </Reveal>

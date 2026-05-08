@@ -10,8 +10,8 @@ export function Footer() {
   return (
     <footer className="bg-ink text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mb-16">
+          <div className="sm:col-span-2">
             <div className="flex items-center gap-2 font-display text-2xl font-black text-white tracking-tight mb-6">
               <div className="w-8 h-8 bg-brand rounded-lg flex items-center justify-center">
                 <span className="text-white">U</span>
