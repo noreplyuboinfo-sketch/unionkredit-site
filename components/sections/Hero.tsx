@@ -17,11 +17,11 @@ export function Hero() {
       <BlurStar className="absolute top-1/2 left-0 -translate-y-1/2 -ml-32 w-96 h-96 opacity-50" />
       <FloatingElements />
       
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
-        <Reveal delay={100} className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left w-full overflow-hidden">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand/10 text-brand font-bold text-[11px] sm:text-sm mb-6 max-w-full">
+      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center justify-items-center lg:justify-items-start">
+        <Reveal delay={100} className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left w-full overflow-hidden max-w-2xl">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand/10 text-brand font-bold text-[11px] sm:text-sm mb-6">
             <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-current shrink-0" />
-            <span className="truncate sm:whitespace-normal px-1">{t('badge')}</span>
+            <span className="px-1">{t('badge')}</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-ink leading-[1.15] tracking-tight mb-6 w-full break-words text-center lg:text-left">
             {t.rich('title', {
@@ -36,15 +36,15 @@ export function Hero() {
             {t('subtitle')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 w-full sm:w-auto items-center sm:items-stretch">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12 w-full max-w-sm sm:max-w-none items-center sm:items-stretch mx-auto lg:mx-0">
             <Button 
               withChevron 
               onClick={() => document.getElementById('application-form')?.scrollIntoView({behavior: 'smooth'})}
-              className="w-full sm:w-auto min-w-[200px]"
+              className="w-full sm:w-auto"
             >
               {t('ctaPrimary')}
             </Button>
-            <Button variant="outline" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({behavior: 'smooth'})} className="w-full sm:w-auto min-w-[200px]">
+            <Button variant="outline" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({behavior: 'smooth'})} className="w-full sm:w-auto">
               {t('ctaSecondary')}
             </Button>
           </div>
@@ -61,7 +61,7 @@ export function Hero() {
           </div>
         </Reveal>
         
-        <Reveal delay={200} className="relative z-10">
+        <Reveal delay={200} className="relative z-10 w-full flex justify-center">
           <Simulator />
         </Reveal>
       </div>
