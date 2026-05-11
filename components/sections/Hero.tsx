@@ -36,15 +36,15 @@ export function Hero() {
             {t('subtitle')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 w-full max-w-sm sm:max-w-none items-center sm:items-stretch mx-auto lg:mx-0">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12 w-full max-w-sm sm:max-w-none items-center justify-center lg:justify-start">
             <Button 
               withChevron 
               onClick={() => document.getElementById('application-form')?.scrollIntoView({behavior: 'smooth'})}
-              className="w-full sm:w-auto"
+              className="w-full sm:w-auto min-w-[180px]"
             >
               {t('ctaPrimary')}
             </Button>
-            <Button variant="outline" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({behavior: 'smooth'})} className="w-full sm:w-auto">
+            <Button variant="outline" onClick={() => document.getElementById('how-it-works')?.scrollIntoView({behavior: 'smooth'})} className="w-full sm:w-auto min-w-[180px]">
               {t('ctaSecondary')}
             </Button>
           </div>
