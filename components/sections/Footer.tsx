@@ -2,6 +2,7 @@
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { LegalModal } from '../ui/LegalModal';
+import { Logo } from '../ui/Logo';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -12,11 +13,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mb-16">
           <div className="sm:col-span-2">
-            <div className="flex items-center gap-2 font-display text-2xl font-black text-white tracking-tight mb-6">
-              <div className="w-8 h-8 bg-brand rounded-lg flex items-center justify-center">
-                <span className="text-white">U</span>
-              </div>
-              Union-Kredit
+            <div className="mb-6">
+              <Logo showText={false} className="w-12 h-12" />
             </div>
             <p className="text-gray-400 max-w-sm mb-6">{t('about')}</p>
           </div>

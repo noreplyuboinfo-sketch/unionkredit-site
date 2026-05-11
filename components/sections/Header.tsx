@@ -1,5 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { Logo } from '../ui/Logo';
 import { LangSwitcher } from '../ui/LangSwitcher';
 import { Button } from '../ui/Button';
 import { useState } from 'react';
@@ -15,12 +16,9 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <button 
           onClick={() => { window.location.href = window.location.pathname; }}
-          className="flex items-center gap-2 font-display text-xl sm:text-2xl font-black text-ink tracking-tight hover:opacity-80 transition-opacity cursor-pointer shrink-0"
+          className="hover:opacity-80 transition-opacity cursor-pointer shrink-0"
         >
-          <div className="w-7 h-7 sm:w-8 sm:h-8 bg-brand rounded-lg flex items-center justify-center shrink-0">
-            <span className="text-white text-sm sm:text-base">U</span>
-          </div>
-          <span className="truncate sm:whitespace-normal">Union-Kredit</span>
+          <Logo className="scale-75 sm:scale-100 origin-left" />
         </button>
         
         <nav className="hidden md:flex items-center gap-8 font-medium text-ink2">
