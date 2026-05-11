@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Union-Kredit',
   description: 'Fast, reliable, and transparent loans.',
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.svg?v=2',
   },
 };
 
