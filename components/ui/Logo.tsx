@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
+import { useTranslations } from 'next-intl';
 
 interface LogoProps {
   className?: string;
@@ -8,6 +9,8 @@ interface LogoProps {
 }
 
 export const Logo = ({ className, showText = true, showSlogan = true }: LogoProps) => {
+  const t = useTranslations('header');
+
   return (
     <div className={cn("flex items-center gap-3", className)}>
       {/* Icon */}
@@ -23,7 +26,7 @@ export const Logo = ({ className, showText = true, showSlogan = true }: LogoProp
           </span>
           {showSlogan && (
             <span className="text-[#666666] dark:text-gray-400 font-bold text-[10px] uppercase tracking-[0.15em]">
-              Simple. Intelligent. Sécurisé.
+              {t('slogan')}
             </span>
           )}
         </div>
