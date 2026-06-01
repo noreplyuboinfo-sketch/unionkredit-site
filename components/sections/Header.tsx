@@ -4,7 +4,7 @@ import { Logo } from '../ui/Logo';
 import { LangSwitcher } from '../ui/LangSwitcher';
 import { Button } from '../ui/Button';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 
 export function Header() {
@@ -13,6 +13,26 @@ export function Header() {
   
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/80 border-b border-gray-100">
+      {/* Top Bar for Contact Info */}
+      <div className="bg-ink text-white/80 text-xs py-2 px-6 border-b border-white/10">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+          <div className="flex flex-wrap items-center gap-4">
+            <a href="tel:+393508938067" className="flex items-center gap-1.5 hover:text-white transition-colors">
+              <Phone className="w-3.5 h-3.5 text-brand" />
+              <span>+39 3508938067</span>
+            </a>
+            <a href="tel:+31613519042" className="flex items-center gap-1.5 hover:text-white transition-colors">
+              <Phone className="w-3.5 h-3.5 text-brand" />
+              <span>+31 613519042</span>
+            </a>
+          </div>
+          <a href="mailto:contact@unionkredit.info" className="flex items-center gap-1.5 hover:text-white transition-colors">
+            <Mail className="w-3.5 h-3.5 text-brand" />
+            <span>contact@unionkredit.info</span>
+          </a>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <button 
           onClick={() => { window.location.href = window.location.pathname; }}
@@ -45,10 +65,26 @@ export function Header() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-white border-b border-gray-100 shadow-xl py-4 px-6 flex flex-col gap-4">
+        <div className="md:hidden absolute top-[112px] left-0 w-full bg-white border-b border-gray-100 shadow-xl py-4 px-6 flex flex-col gap-4">
           <a href="#loans" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('loans')}</a>
           <a href="#how-it-works" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('howItWorks')}</a>
           <a href="#reviews" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('reviews')}</a>
+          
+          <div className="border-t border-gray-100 pt-4 flex flex-col gap-3">
+            <a href="tel:+393508938067" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm">
+              <Phone className="w-4 h-4 text-brand" />
+              <span>+39 3508938067</span>
+            </a>
+            <a href="tel:+31613519042" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm">
+              <Phone className="w-4 h-4 text-brand" />
+              <span>+31 613519042</span>
+            </a>
+            <a href="mailto:contact@unionkredit.info" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm">
+              <Mail className="w-4 h-4 text-brand" />
+              <span>contact@unionkredit.info</span>
+            </a>
+          </div>
+
           <Button 
             className="w-full mt-2" 
             onClick={() => {

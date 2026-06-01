@@ -1,5 +1,11 @@
 {
-  "header": { "loans": "Onze Leningen", "howItWorks": "Hoe het werkt", "reviews": "Beoordelingen", "cta": "Aanvragen", "slogan": "EENVOUDIG. INTELLIGENT. VEILIG." },
+  "header": {
+    "loans": "Onze Leningen",
+    "howItWorks": "Hoe het werkt",
+    "reviews": "Beoordelingen",
+    "cta": "Aanvragen",
+    "slogan": "EENVOUDIG. INTELLIGENT. VEILIG."
+  },
   "hero": {
     "badge": "Vaste Rente Gegarandeerd 2%",
     "title": "Professionele leningen <highlight>snel en eenvoudig.</highlight>",
@@ -22,35 +28,77 @@
   "problem": {
     "title": "Waarom Union-Kredit?",
     "items": [
-      { "title": "Snel", "desc": "Ontvang het geld binnen 48u na definitieve acceptatie." },
-      { "title": "100% Online", "desc": "Geen eindeloos papierwerk." },
-      { "title": "Transparant", "desc": "Vaste rente van 2%, geen verrassingen." }
+      {
+        "title": "Snel",
+        "desc": "Ontvang het geld binnen 48u na definitieve acceptatie."
+      },
+      {
+        "title": "100% Online",
+        "desc": "Geen eindeloos papierwerk."
+      },
+      {
+        "title": "Transparant",
+        "desc": "Vaste rente van 2%, geen verrassingen."
+      }
     ]
   },
   "offers": {
     "title": "Een lening voor elke behoefte",
     "subtitle": "Ontdek onze aanbiedingen.",
     "upTo": "Tot",
-    "conso": { "title": "Persoonlijke Lening", "desc": "Voor uw projecten.", "amount": "€ 50.000" },
-    "immo": { "title": "Hypothecaire Lening", "desc": "Koop uw droomhuis.", "amount": "€ 1.000.000" },
-    "travaux": { "title": "Renovatielening", "desc": "Renoveer uw huis.", "amount": "€ 100.000" }
+    "conso": {
+      "title": "Persoonlijke Lening",
+      "desc": "Voor uw projecten.",
+      "amount": "€ 50.000"
+    },
+    "immo": {
+      "title": "Hypothecaire Lening",
+      "desc": "Koop uw droomhuis.",
+      "amount": "€ 1.000.000"
+    },
+    "travaux": {
+      "title": "Renovatielening",
+      "desc": "Renoveer uw huis.",
+      "amount": "€ 100.000"
+    }
   },
   "features": {
     "title": "De voordelen",
     "subtitle": "Ontworpen om uw leven te vereenvoudigen.",
     "items": [
-      { "title": "Onmiddellijk antwoord", "desc": "Akkoord in 3 minuten." },
-      { "title": "Vaste rente 2%", "desc": "De beste op de markt." },
-      { "title": "Maximale veiligheid", "desc": "Gegevens gecodeerd in Europa." },
-      { "title": "Toegewijde ondersteuning", "desc": "Adviseurs 6 dagen per week beschikbaar." }
+      {
+        "title": "Onmiddellijk antwoord",
+        "desc": "Akkoord in 3 minuten."
+      },
+      {
+        "title": "Vaste rente 2%",
+        "desc": "De beste op de markt."
+      },
+      {
+        "title": "Maximale veiligheid",
+        "desc": "Gegevens gecodeerd in Europa."
+      },
+      {
+        "title": "Toegewijde ondersteuning",
+        "desc": "Adviseurs 6 dagen per week beschikbaar."
+      }
     ]
   },
   "howItWorks": {
     "title": "Hoe werkt het?",
     "items": [
-      { "title": "Simuleer", "desc": "Gebruik onze rekenmachine." },
-      { "title": "Vul het formulier in", "desc": "Vul in." },
-      { "title": "Ontvang", "desc": "Ontvang de fondsen." }
+      {
+        "title": "Simuleer",
+        "desc": "Gebruik onze rekenmachine."
+      },
+      {
+        "title": "Vul het formulier in",
+        "desc": "Vul in."
+      },
+      {
+        "title": "Ontvang",
+        "desc": "Ontvang de fondsen."
+      }
     ]
   },
   "form": {
@@ -64,43 +112,117 @@
       "amount": "Bedrag",
       "months": "Maanden"
     },
-    "errors": { "required": "Vereist", "email": "Ongeldige e-mail", "phone": "Ongeldig telefoonnummer" },
+    "errors": {
+      "required": "Vereist",
+      "email": "Ongeldige e-mail",
+      "phone": "Ongeldig telefoonnummer"
+    },
     "submit": "Aanvraag verzenden",
     "secureInfo": "Veilige informatie.",
-    "success": { "title": "Verzonden!", "desc": "We nemen binnen 24u contact met u op." }
+    "success": {
+      "title": "Verzonden!",
+      "desc": "We nemen binnen 24u contact met u op."
+    }
   },
   "testimonials": {
     "title": "Wat onze klanten zeggen",
     "items": [
-      { "name": "Sophie M.", "role": "Ondernemer", "text": "Snel en tegen 2%." },
-      { "name": "Marc D.", "role": "Particulier", "text": "Geen verrassingen." },
-      { "name": "Julia R.", "role": "Investeerder", "text": "Top service." },
-      { "name": "Antoine L.", "role": "Ambachtsman", "text": "Begrijpen de realiteit." },
-      { "name": "Marie C.", "role": "Handelaar", "text": "Kon snel renoveren." },
-      { "name": "Lucas B.", "role": "Freelance", "text": "Eenvoudig en efficiënt." },
-      { "name": "Carlos S.", "role": "Architect", "text": "De beste keuze voor mijn projecten." },
-      { "name": "Elena F.", "role": "Arts", "text": "Zeer snelle goedkeuring." },
-      { "name": "David G.", "role": "Ingenieur", "text": "Volledige transparantie." },
-      { "name": "Ana P.", "role": "Ontwerper", "text": "De simulator is uitstekend." }
+      {
+        "name": "Sophie M.",
+        "role": "Ondernemer",
+        "text": "Snel en tegen 2%."
+      },
+      {
+        "name": "Marc D.",
+        "role": "Particulier",
+        "text": "Geen verrassingen."
+      },
+      {
+        "name": "Julia R.",
+        "role": "Investeerder",
+        "text": "Top service."
+      },
+      {
+        "name": "Antoine L.",
+        "role": "Ambachtsman",
+        "text": "Begrijpen de realiteit."
+      },
+      {
+        "name": "Marie C.",
+        "role": "Handelaar",
+        "text": "Kon snel renoveren."
+      },
+      {
+        "name": "Lucas B.",
+        "role": "Freelance",
+        "text": "Eenvoudig en efficiënt."
+      },
+      {
+        "name": "Carlos S.",
+        "role": "Architect",
+        "text": "De beste keuze voor mijn projecten."
+      },
+      {
+        "name": "Elena F.",
+        "role": "Arts",
+        "text": "Zeer snelle goedkeuring."
+      },
+      {
+        "name": "David G.",
+        "role": "Ingenieur",
+        "text": "Volledige transparantie."
+      },
+      {
+        "name": "Ana P.",
+        "role": "Ontwerper",
+        "text": "De simulator is uitstekend."
+      }
     ]
   },
   "stats": {
     "items": [
-      { "value": "2%", "label": "Vaste Rente" },
-      { "value": "24h", "label": "Antwoord" },
-      { "value": "100%", "label": "Online" },
-      { "value": "8000+", "label": "Tevreden klanten" }
+      {
+        "value": "2%",
+        "label": "Vaste Rente"
+      },
+      {
+        "value": "24h",
+        "label": "Antwoord"
+      },
+      {
+        "value": "100%",
+        "label": "Online"
+      },
+      {
+        "value": "8000+",
+        "label": "Tevreden klanten"
+      }
     ]
   },
   "faq": {
     "title": "Veelgestelde Vragen",
     "subtitle": "Alles wat u moet weten.",
     "items": [
-      { "q": "Documenten?", "a": "Voorlopig geen." },
-      { "q": "Vervroegde aflossing?", "a": "Ja, zonder boete." },
-      { "q": "Gegarandeerde rente?", "a": "Ja, 2%." },
-      { "q": "Ontvangsttijd?", "a": "48 tot 72u." },
-      { "q": "Bindend?", "a": "Nee." }
+      {
+        "q": "Documenten?",
+        "a": "Voorlopig geen."
+      },
+      {
+        "q": "Vervroegde aflossing?",
+        "a": "Ja, zonder boete."
+      },
+      {
+        "q": "Gegarandeerde rente?",
+        "a": "Ja, 2%."
+      },
+      {
+        "q": "Ontvangsttijd?",
+        "a": "48 tot 72u."
+      },
+      {
+        "q": "Bindend?",
+        "a": "Nee."
+      }
     ]
   },
   "ctaFinal": {
@@ -110,10 +232,20 @@
   },
   "footer": {
     "about": "Union-Kredit vindt krediet opnieuw uit.",
-    "links": { "title": "Navigatie", "loans": "Leningen", "howItWorks": "Hoe het werkt", "reviews": "Beoordelingen" },
-    "legal": { "title": "Juridisch", "privacy": "Privacy", "terms": "Voorwaarden" },
+    "links": {
+      "title": "Navigatie",
+      "loans": "Leningen",
+      "howItWorks": "Hoe het werkt",
+      "reviews": "Beoordelingen"
+    },
+    "legal": {
+      "title": "Juridisch",
+      "privacy": "Privacy",
+      "terms": "Voorwaarden"
+    },
     "copyright": "Alle rechten voorbehouden.",
-    "responsible": "Een krediet verbindt u en moet worden terugbetaald. Controleer uw terugbetalingscapaciteit voordat u zich verbindt."
+    "responsible": "Een krediet verbindt u en moet worden terugbetaald. Controleer uw terugbetalingscapaciteit voordat u zich verbindt.",
+    "contact": "Contact"
   },
   "legal": {
     "privacyTitle": "Privacybeleid",

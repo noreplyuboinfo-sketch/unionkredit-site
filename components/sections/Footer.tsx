@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { LegalModal } from '../ui/LegalModal';
 import { Logo } from '../ui/Logo';
+import { Phone, Mail } from 'lucide-react';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -11,7 +12,7 @@ export function Footer() {
   return (
     <footer className="bg-ink text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 md:gap-12 mb-16">
           <div className="sm:col-span-2">
             <div className="mb-6">
               <Logo showText={false} className="w-12 h-12" />
@@ -44,6 +45,29 @@ export function Footer() {
                 >
                   {t('legal.terms')}
                 </button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold mb-6 text-lg">{t('contact')}</h4>
+            <ul className="space-y-4 text-gray-400">
+              <li>
+                <a href="tel:+393508938067" className="hover:text-white transition-colors flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-brand shrink-0" />
+                  <span>+39 3508938067</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+31613519042" className="hover:text-white transition-colors flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-brand shrink-0" />
+                  <span>+31 613519042</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:contact@unionkredit.info" className="hover:text-white transition-colors flex items-center gap-2 break-all">
+                  <Mail className="w-4 h-4 text-brand shrink-0" />
+                  <span>contact@unionkredit.info</span>
+                </a>
               </li>
             </ul>
           </div>

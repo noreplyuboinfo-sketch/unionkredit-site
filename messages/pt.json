@@ -1,5 +1,11 @@
 {
-  "header": { "loans": "Nossos Empréstimos", "howItWorks": "Como funciona", "reviews": "Avaliações", "cta": "Solicitar", "slogan": "SIMPLES. INTELIGENTE. SEGURO." },
+  "header": {
+    "loans": "Nossos Empréstimos",
+    "howItWorks": "Como funciona",
+    "reviews": "Avaliações",
+    "cta": "Solicitar",
+    "slogan": "SIMPLES. INTELIGENTE. SEGURO."
+  },
   "hero": {
     "badge": "Taxa Fixa Garantida de 2%",
     "title": "Empréstimos profissionais <highlight>rápidos e simples.</highlight>",
@@ -22,35 +28,77 @@
   "problem": {
     "title": "Por que escolher a Union-Kredit?",
     "items": [
-      { "title": "Rápido", "desc": "Receba os fundos em 48h após a aceitação final." },
-      { "title": "100% Online", "desc": "Sem burocracia interminável." },
-      { "title": "Transparente", "desc": "Taxa fixa de 2%, sem surpresas." }
+      {
+        "title": "Rápido",
+        "desc": "Receba os fundos em 48h após a aceitação final."
+      },
+      {
+        "title": "100% Online",
+        "desc": "Sem burocracia interminável."
+      },
+      {
+        "title": "Transparente",
+        "desc": "Taxa fixa de 2%, sem surpresas."
+      }
     ]
   },
   "offers": {
     "title": "Um empréstimo adaptado a cada necessidade",
     "subtitle": "Descubra as nossas ofertas.",
     "upTo": "Até",
-    "conso": { "title": "Crédito Pessoal", "desc": "Para os seus projetos.", "amount": "50 000 €" },
-    "immo": { "title": "Crédito Habitação", "desc": "Compre a sua casa de sonho.", "amount": "1 000 000 €" },
-    "travaux": { "title": "Crédito Obras", "desc": "Renove a sua casa.", "amount": "100 000 €" }
+    "conso": {
+      "title": "Crédito Pessoal",
+      "desc": "Para os seus projetos.",
+      "amount": "50 000 €"
+    },
+    "immo": {
+      "title": "Crédito Habitação",
+      "desc": "Compre a sua casa de sonho.",
+      "amount": "1 000 000 €"
+    },
+    "travaux": {
+      "title": "Crédito Obras",
+      "desc": "Renove a sua casa.",
+      "amount": "100 000 €"
+    }
   },
   "features": {
     "title": "As vantagens",
     "subtitle": "Concebido para simplificar a sua vida.",
     "items": [
-      { "title": "Resposta imediata", "desc": "Acordo em 3 minutos." },
-      { "title": "Taxa fixa 2%", "desc": "A melhor do mercado." },
-      { "title": "Segurança máxima", "desc": "Dados encriptados na Europa." },
-      { "title": "Suporte dedicado", "desc": "Conselheiros disponíveis 6 dias por semana." }
+      {
+        "title": "Resposta imediata",
+        "desc": "Acordo em 3 minutos."
+      },
+      {
+        "title": "Taxa fixa 2%",
+        "desc": "A melhor do mercado."
+      },
+      {
+        "title": "Segurança máxima",
+        "desc": "Dados encriptados na Europa."
+      },
+      {
+        "title": "Suporte dedicado",
+        "desc": "Conselheiros disponíveis 6 dias por semana."
+      }
     ]
   },
   "howItWorks": {
     "title": "Como funciona?",
     "items": [
-      { "title": "Simule", "desc": "Use a nossa calculadora." },
-      { "title": "Preencha o formulário", "desc": "Preencha online." },
-      { "title": "Receba", "desc": "Receba os fundos." }
+      {
+        "title": "Simule",
+        "desc": "Use a nossa calculadora."
+      },
+      {
+        "title": "Preencha o formulário",
+        "desc": "Preencha online."
+      },
+      {
+        "title": "Receba",
+        "desc": "Receba os fundos."
+      }
     ]
   },
   "form": {
@@ -64,43 +112,117 @@
       "amount": "Montante",
       "months": "Meses"
     },
-    "errors": { "required": "Obrigatório", "email": "Email inválido", "phone": "Telefone inválido" },
+    "errors": {
+      "required": "Obrigatório",
+      "email": "Email inválido",
+      "phone": "Telefone inválido"
+    },
     "submit": "Enviar pedido",
     "secureInfo": "Informações seguras.",
-    "success": { "title": "Enviado!", "desc": "Contactaremos em 24h." }
+    "success": {
+      "title": "Enviado!",
+      "desc": "Contactaremos em 24h."
+    }
   },
   "testimonials": {
     "title": "O que dizem os nossos clientes",
     "items": [
-      { "name": "Sophie M.", "role": "Empreendedora", "text": "Rápido e a 2%." },
-      { "name": "Marc D.", "role": "Particular", "text": "Sem surpresas." },
-      { "name": "Julia R.", "role": "Investidora", "text": "Serviço top." },
-      { "name": "Antoine L.", "role": "Artesão", "text": "Compreendem a realidade." },
-      { "name": "Marie C.", "role": "Comerciante", "text": "Pude renovar rapidamente." },
-      { "name": "Lucas B.", "role": "Freelance", "text": "Simples e eficaz." },
-      { "name": "Carlos S.", "role": "Arquiteto", "text": "A melhor opção para os meus projetos." },
-      { "name": "Elena F.", "role": "Médica", "text": "Aprovação muito rápida." },
-      { "name": "David G.", "role": "Engenheiro", "text": "Transparência total." },
-      { "name": "Ana P.", "role": "Designer", "text": "O simulador é excelente." }
+      {
+        "name": "Sophie M.",
+        "role": "Empreendedora",
+        "text": "Rápido e a 2%."
+      },
+      {
+        "name": "Marc D.",
+        "role": "Particular",
+        "text": "Sem surpresas."
+      },
+      {
+        "name": "Julia R.",
+        "role": "Investidora",
+        "text": "Serviço top."
+      },
+      {
+        "name": "Antoine L.",
+        "role": "Artesão",
+        "text": "Compreendem a realidade."
+      },
+      {
+        "name": "Marie C.",
+        "role": "Comerciante",
+        "text": "Pude renovar rapidamente."
+      },
+      {
+        "name": "Lucas B.",
+        "role": "Freelance",
+        "text": "Simples e eficaz."
+      },
+      {
+        "name": "Carlos S.",
+        "role": "Arquiteto",
+        "text": "A melhor opção para os meus projetos."
+      },
+      {
+        "name": "Elena F.",
+        "role": "Médica",
+        "text": "Aprovação muito rápida."
+      },
+      {
+        "name": "David G.",
+        "role": "Engenheiro",
+        "text": "Transparência total."
+      },
+      {
+        "name": "Ana P.",
+        "role": "Designer",
+        "text": "O simulador é excelente."
+      }
     ]
   },
   "stats": {
     "items": [
-      { "value": "2%", "label": "Taxa Fixa" },
-      { "value": "24h", "label": "Resposta" },
-      { "value": "100%", "label": "Online" },
-      { "value": "8000+", "label": "Clientes satisfeitos" }
+      {
+        "value": "2%",
+        "label": "Taxa Fixa"
+      },
+      {
+        "value": "24h",
+        "label": "Resposta"
+      },
+      {
+        "value": "100%",
+        "label": "Online"
+      },
+      {
+        "value": "8000+",
+        "label": "Clientes satisfeitos"
+      }
     ]
   },
   "faq": {
     "title": "Perguntas Frequentes",
     "subtitle": "Tudo o que precisa saber.",
     "items": [
-      { "q": "Documentos?", "a": "Nenhum por agora." },
-      { "q": "Pagamento antecipado?", "a": "Sim, sem penalização." },
-      { "q": "Taxa garantida?", "a": "Sim, 2%." },
-      { "q": "Tempo de receção?", "a": "48 a 72h." },
-      { "q": "Vinculativo?", "a": "Não." }
+      {
+        "q": "Documentos?",
+        "a": "Nenhum por agora."
+      },
+      {
+        "q": "Pagamento antecipado?",
+        "a": "Sim, sem penalização."
+      },
+      {
+        "q": "Taxa garantida?",
+        "a": "Sim, 2%."
+      },
+      {
+        "q": "Tempo de receção?",
+        "a": "48 a 72h."
+      },
+      {
+        "q": "Vinculativo?",
+        "a": "Não."
+      }
     ]
   },
   "ctaFinal": {
@@ -110,10 +232,20 @@
   },
   "footer": {
     "about": "A Union-Kredit reinventa o crédito.",
-    "links": { "title": "Navegação", "loans": "Empréstimos", "howItWorks": "Como funciona", "reviews": "Avaliações" },
-    "legal": { "title": "Legal", "privacy": "Privacidade", "terms": "Termos" },
+    "links": {
+      "title": "Navegação",
+      "loans": "Empréstimos",
+      "howItWorks": "Como funciona",
+      "reviews": "Avaliações"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacidade",
+      "terms": "Termos"
+    },
     "copyright": "Todos os direitos reservados.",
-    "responsible": "Um crédito compromete-o e deve ser reembolsado. Verifique a sua capacidade de reembolso antes de se comprometer."
+    "responsible": "Um crédito compromete-o e deve ser reembolsado. Verifique a sua capacidade de reembolso antes de se comprometer.",
+    "contact": "Contacto"
   },
   "legal": {
     "privacyTitle": "Política de Privacidade",

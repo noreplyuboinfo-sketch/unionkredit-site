@@ -1,5 +1,11 @@
 {
-  "header": { "loans": "Våre lån", "howItWorks": "Hvordan det fungerer", "reviews": "Anmeldelser", "cta": "Søk nå", "slogan": "ENKEL. INTELLIGENT. SIKKER." },
+  "header": {
+    "loans": "Våre lån",
+    "howItWorks": "Hvordan det fungerer",
+    "reviews": "Anmeldelser",
+    "cta": "Søk nå",
+    "slogan": "ENKEL. INTELLIGENT. SIKKER."
+  },
   "hero": {
     "badge": "Fast rente garantert 2%",
     "title": "Profesjonelle lån gjort <highlight>raske og enkle.</highlight>",
@@ -22,35 +28,77 @@
   "problem": {
     "title": "Hvorfor velge Union-Kredit?",
     "items": [
-      { "title": "Rask", "desc": "Motta midlene innen 48t etter endelig aksept." },
-      { "title": "100% Online", "desc": "Ingen endeløs papirarbeid." },
-      { "title": "Gjennomsiktig", "desc": "Fast rente på 2%, ingen overraskelser." }
+      {
+        "title": "Rask",
+        "desc": "Motta midlene innen 48t etter endelig aksept."
+      },
+      {
+        "title": "100% Online",
+        "desc": "Ingen endeløs papirarbeid."
+      },
+      {
+        "title": "Gjennomsiktig",
+        "desc": "Fast rente på 2%, ingen overraskelser."
+      }
     ]
   },
   "offers": {
     "title": "Et lån tilpasset ethvert behov",
     "subtitle": "Oppdag våre tilbud.",
     "upTo": "Opptil",
-    "conso": { "title": "Personlig lån", "desc": "For dine prosjekter.", "amount": "50 000 €" },
-    "immo": { "title": "Boliglån", "desc": "Kjøp drømmehuset.", "amount": "1 000 000 €" },
-    "travaux": { "title": "Oppussingslån", "desc": "Renover hjemmet ditt.", "amount": "100 000 €" }
+    "conso": {
+      "title": "Personlig lån",
+      "desc": "For dine prosjekter.",
+      "amount": "50 000 €"
+    },
+    "immo": {
+      "title": "Boliglån",
+      "desc": "Kjøp drømmehuset.",
+      "amount": "1 000 000 €"
+    },
+    "travaux": {
+      "title": "Oppussingslån",
+      "desc": "Renover hjemmet ditt.",
+      "amount": "100 000 €"
+    }
   },
   "features": {
     "title": "Fordelene",
     "subtitle": "Designet for å forenkle livet ditt.",
     "items": [
-      { "title": "Umiddelbar respons", "desc": "Avtale på 3 minutter." },
-      { "title": "Fast rente 2%", "desc": "Markedets beste." },
-      { "title": "Maksimal sikkerhet", "desc": "Krypterte data i Europa." },
-      { "title": "Dedikert støtte", "desc": "Rådgivere tilgjengelig 6 dager i uken." }
+      {
+        "title": "Umiddelbar respons",
+        "desc": "Avtale på 3 minutter."
+      },
+      {
+        "title": "Fast rente 2%",
+        "desc": "Markedets beste."
+      },
+      {
+        "title": "Maksimal sikkerhet",
+        "desc": "Krypterte data i Europa."
+      },
+      {
+        "title": "Dedikert støtte",
+        "desc": "Rådgivere tilgjengelig 6 dager i uken."
+      }
     ]
   },
   "howItWorks": {
     "title": "Hvordan fungerer det?",
     "items": [
-      { "title": "Simuler", "desc": "Bruk vår kalkulator." },
-      { "title": "Fyll ut skjemaet", "desc": "Fyll ut online." },
-      { "title": "Motta", "desc": "Motta midlene." }
+      {
+        "title": "Simuler",
+        "desc": "Bruk vår kalkulator."
+      },
+      {
+        "title": "Fyll ut skjemaet",
+        "desc": "Fyll ut online."
+      },
+      {
+        "title": "Motta",
+        "desc": "Motta midlene."
+      }
     ]
   },
   "form": {
@@ -64,43 +112,117 @@
       "amount": "Beløp",
       "months": "Måneder"
     },
-    "errors": { "required": "Påkrevd", "email": "Ugyldig e-post", "phone": "Ugyldig telefon" },
+    "errors": {
+      "required": "Påkrevd",
+      "email": "Ugyldig e-post",
+      "phone": "Ugyldig telefon"
+    },
     "submit": "Send søknad",
     "secureInfo": "Sikker informasjon.",
-    "success": { "title": "Sendt!", "desc": "Vi kontakter deg innen 24t." }
+    "success": {
+      "title": "Sendt!",
+      "desc": "Vi kontakter deg innen 24t."
+    }
   },
   "testimonials": {
     "title": "Hva kundene våre sier",
     "items": [
-      { "name": "Sophie M.", "role": "Gründer", "text": "Raskt og til 2%." },
-      { "name": "Marc D.", "role": "Privatperson", "text": "Ingen overraskelser." },
-      { "name": "Julia R.", "role": "Investor", "text": "Topp service." },
-      { "name": "Antoine L.", "role": "Håndverker", "text": "Forstår virkeligheten." },
-      { "name": "Marie C.", "role": "Kjøpmann", "text": "Kunne pusse opp raskt." },
-      { "name": "Lucas B.", "role": "Frilanser", "text": "Enkelt og effektivt." },
-      { "name": "Carlos S.", "role": "Arkitekt", "text": "Det beste valget." },
-      { "name": "Elena F.", "role": "Lege", "text": "Veldig rask godkjenning." },
-      { "name": "David G.", "role": "Ingeniør", "text": "Full åpenhet." },
-      { "name": "Ana P.", "role": "Designer", "text": "Simulatoren er utmerket." }
+      {
+        "name": "Sophie M.",
+        "role": "Gründer",
+        "text": "Raskt og til 2%."
+      },
+      {
+        "name": "Marc D.",
+        "role": "Privatperson",
+        "text": "Ingen overraskelser."
+      },
+      {
+        "name": "Julia R.",
+        "role": "Investor",
+        "text": "Topp service."
+      },
+      {
+        "name": "Antoine L.",
+        "role": "Håndverker",
+        "text": "Forstår virkeligheten."
+      },
+      {
+        "name": "Marie C.",
+        "role": "Kjøpmann",
+        "text": "Kunne pusse opp raskt."
+      },
+      {
+        "name": "Lucas B.",
+        "role": "Frilanser",
+        "text": "Enkelt og effektivt."
+      },
+      {
+        "name": "Carlos S.",
+        "role": "Arkitekt",
+        "text": "Det beste valget."
+      },
+      {
+        "name": "Elena F.",
+        "role": "Lege",
+        "text": "Veldig rask godkjenning."
+      },
+      {
+        "name": "David G.",
+        "role": "Ingeniør",
+        "text": "Full åpenhet."
+      },
+      {
+        "name": "Ana P.",
+        "role": "Designer",
+        "text": "Simulatoren er utmerket."
+      }
     ]
   },
   "stats": {
     "items": [
-      { "value": "2%", "label": "Fast rente" },
-      { "value": "24t", "label": "Responstid" },
-      { "value": "100%", "label": "Online" },
-      { "value": "8000+", "label": "Fornøyde kunder" }
+      {
+        "value": "2%",
+        "label": "Fast rente"
+      },
+      {
+        "value": "24t",
+        "label": "Responstid"
+      },
+      {
+        "value": "100%",
+        "label": "Online"
+      },
+      {
+        "value": "8000+",
+        "label": "Fornøyde kunder"
+      }
     ]
   },
   "faq": {
     "title": "Ofte stilte spørsmål",
     "subtitle": "Alt du trenger å vite.",
     "items": [
-      { "q": "Dokumenter?", "a": "Ingen for øyeblikket." },
-      { "q": "Tidlig nedbetaling?", "a": "Ja, uten gebyr." },
-      { "q": "Garantert rente?", "a": "Ja, 2%." },
-      { "q": "Mottakstid?", "a": "48 til 72t." },
-      { "q": "Bindende?", "a": "Nei." }
+      {
+        "q": "Dokumenter?",
+        "a": "Ingen for øyeblikket."
+      },
+      {
+        "q": "Tidlig nedbetaling?",
+        "a": "Ja, uten gebyr."
+      },
+      {
+        "q": "Garantert rente?",
+        "a": "Ja, 2%."
+      },
+      {
+        "q": "Mottakstid?",
+        "a": "48 til 72t."
+      },
+      {
+        "q": "Bindende?",
+        "a": "Nei."
+      }
     ]
   },
   "ctaFinal": {
@@ -110,10 +232,20 @@
   },
   "footer": {
     "about": "Union-Kredit gjenoppfinner kreditt.",
-    "links": { "title": "Navigasjon", "loans": "Lån", "howItWorks": "Hvordan det fungerer", "reviews": "Anmeldelser" },
-    "legal": { "title": "Juridisk", "privacy": "Personvern", "terms": "Vilkår" },
+    "links": {
+      "title": "Navigasjon",
+      "loans": "Lån",
+      "howItWorks": "Hvordan det fungerer",
+      "reviews": "Anmeldelser"
+    },
+    "legal": {
+      "title": "Juridisk",
+      "privacy": "Personvern",
+      "terms": "Vilkår"
+    },
     "copyright": "Alle rettigheter reservert.",
-    "responsible": "Et lån forplikter deg og må tilbakebetales. Sjekk din tilbakebetalingskapasitet før du forplikter deg."
+    "responsible": "Et lån forplikter deg og må tilbakebetales. Sjekk din tilbakebetalingskapasitet før du forplikter deg.",
+    "contact": "Kontakt"
   },
   "legal": {
     "privacyTitle": "Personvernserklæring",

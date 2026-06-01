@@ -28,35 +28,77 @@
   "problem": {
     "title": "Why choose Union-Kredit?",
     "items": [
-      { "title": "Fast", "desc": "Receive funds within 48h after final acceptance of your file." },
-      { "title": "100% Online", "desc": "No endless paperwork. Everything happens from your couch." },
-      { "title": "Transparent", "desc": "A fixed rate of 2%, no application fees or bad surprises." }
+      {
+        "title": "Fast",
+        "desc": "Receive funds within 48h after final acceptance of your file."
+      },
+      {
+        "title": "100% Online",
+        "desc": "No endless paperwork. Everything happens from your couch."
+      },
+      {
+        "title": "Transparent",
+        "desc": "A fixed rate of 2%, no application fees or bad surprises."
+      }
     ]
   },
   "offers": {
     "title": "A loan adapted to every need",
     "subtitle": "Discover our clear and advantageous offers.",
     "upTo": "Up to",
-    "conso": { "title": "Personal Loan", "desc": "For all your life projects.", "amount": "€50,000" },
-    "immo": { "title": "Mortgage Loan", "desc": "Make your dream purchase a reality.", "amount": "€1,000,000" },
-    "travaux": { "title": "Renovation Loan", "desc": "Renovate or furnish your interior.", "amount": "€100,000" }
+    "conso": {
+      "title": "Personal Loan",
+      "desc": "For all your life projects.",
+      "amount": "€50,000"
+    },
+    "immo": {
+      "title": "Mortgage Loan",
+      "desc": "Make your dream purchase a reality.",
+      "amount": "€1,000,000"
+    },
+    "travaux": {
+      "title": "Renovation Loan",
+      "desc": "Renovate or furnish your interior.",
+      "amount": "€100,000"
+    }
   },
   "features": {
     "title": "Advantages that make a difference",
     "subtitle": "Designed to simplify your life.",
     "items": [
-      { "title": "Immediate Response", "desc": "Get a preliminary agreement in less than 3 minutes after filling out the form." },
-      { "title": "Fixed Rate at 2%", "desc": "One of the lowest rates on the market, guaranteed for the entire duration of the loan." },
-      { "title": "Maximum Security", "desc": "Your data is encrypted and stored on highly secure servers in Europe." },
-      { "title": "Dedicated Support", "desc": "Our advisors are available 6 days a week to assist you." }
+      {
+        "title": "Immediate Response",
+        "desc": "Get a preliminary agreement in less than 3 minutes after filling out the form."
+      },
+      {
+        "title": "Fixed Rate at 2%",
+        "desc": "One of the lowest rates on the market, guaranteed for the entire duration of the loan."
+      },
+      {
+        "title": "Maximum Security",
+        "desc": "Your data is encrypted and stored on highly secure servers in Europe."
+      },
+      {
+        "title": "Dedicated Support",
+        "desc": "Our advisors are available 6 days a week to assist you."
+      }
     ]
   },
   "howItWorks": {
     "title": "How does it work?",
     "items": [
-      { "title": "Simulate your loan", "desc": "Use our calculator to define the amount and duration that best suit you." },
-      { "title": "Fill out the form", "desc": "Complete our online form in just a few clicks." },
-      { "title": "Receive your offer", "desc": "Once your file is validated, receive the funds directly into your bank account." }
+      {
+        "title": "Simulate your loan",
+        "desc": "Use our calculator to define the amount and duration that best suit you."
+      },
+      {
+        "title": "Fill out the form",
+        "desc": "Complete our online form in just a few clicks."
+      },
+      {
+        "title": "Receive your offer",
+        "desc": "Once your file is validated, receive the funds directly into your bank account."
+      }
     ]
   },
   "form": {
@@ -85,35 +127,102 @@
   "testimonials": {
     "title": "What our customers say",
     "items": [
-      { "name": "Sophie Martin", "role": "Entrepreneur", "text": "I got my professional loan in record time. The 2% rate is unbeatable." },
-      { "name": "Marc Dubois", "role": "Individual", "text": "The simulator is super practical and clear. No bad surprises." },
-      { "name": "Julia R.", "role": "Investor", "text": "Top-notch customer service that supported me from start to finish." },
-      { "name": "Antoine L.", "role": "Craftsman", "text": "Finally an online bank that understands the reality of craftsmen." },
-      { "name": "Marie C.", "role": "Shopkeeper", "text": "I was able to quickly renovate my store thanks to Union-Kredit." },
-      { "name": "Lucas B.", "role": "Freelancer", "text": "Simple, fast, efficient. Everything we need today." },
-      { "name": "Carlos S.", "role": "Architect", "text": "The best option to finance my projects." },
-      { "name": "Elena F.", "role": "Doctor", "text": "Very fast approval, highly recommended." },
-      { "name": "David G.", "role": "Engineer", "text": "Total transparency from the first moment." },
-      { "name": "Ana P.", "role": "Designer", "text": "The simulator is excellent and precise." }
+      {
+        "name": "Sophie Martin",
+        "role": "Entrepreneur",
+        "text": "I got my professional loan in record time. The 2% rate is unbeatable."
+      },
+      {
+        "name": "Marc Dubois",
+        "role": "Individual",
+        "text": "The simulator is super practical and clear. No bad surprises."
+      },
+      {
+        "name": "Julia R.",
+        "role": "Investor",
+        "text": "Top-notch customer service that supported me from start to finish."
+      },
+      {
+        "name": "Antoine L.",
+        "role": "Craftsman",
+        "text": "Finally an online bank that understands the reality of craftsmen."
+      },
+      {
+        "name": "Marie C.",
+        "role": "Shopkeeper",
+        "text": "I was able to quickly renovate my store thanks to Union-Kredit."
+      },
+      {
+        "name": "Lucas B.",
+        "role": "Freelancer",
+        "text": "Simple, fast, efficient. Everything we need today."
+      },
+      {
+        "name": "Carlos S.",
+        "role": "Architect",
+        "text": "The best option to finance my projects."
+      },
+      {
+        "name": "Elena F.",
+        "role": "Doctor",
+        "text": "Very fast approval, highly recommended."
+      },
+      {
+        "name": "David G.",
+        "role": "Engineer",
+        "text": "Total transparency from the first moment."
+      },
+      {
+        "name": "Ana P.",
+        "role": "Designer",
+        "text": "The simulator is excellent and precise."
+      }
     ]
   },
   "stats": {
     "items": [
-      { "value": "2%", "label": "Fixed Rate" },
-      { "value": "24h", "label": "Response Time" },
-      { "value": "100%", "label": "Online" },
-      { "value": "8000+", "label": "Satisfied Customers" }
+      {
+        "value": "2%",
+        "label": "Fixed Rate"
+      },
+      {
+        "value": "24h",
+        "label": "Response Time"
+      },
+      {
+        "value": "100%",
+        "label": "Online"
+      },
+      {
+        "value": "8000+",
+        "label": "Satisfied Customers"
+      }
     ]
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Everything you need to know.",
     "items": [
-      { "q": "What documents do I need to provide?", "a": "For the preliminary application, none. Documents will be requested later." },
-      { "q": "Can I repay early?", "a": "Yes, you can repay all or part of your loan early, without penalties." },
-      { "q": "Is the 2% rate really guaranteed?", "a": "Yes, our nominal rate is fixed and guaranteed for all eligible applications." },
-      { "q": "How long does it take to receive the funds?", "a": "After signing the final offer, funds are transferred within 48 to 72 hours." },
-      { "q": "Does my application commit me to anything?", "a": "No, the simulation and preliminary application are free and without obligation." }
+      {
+        "q": "What documents do I need to provide?",
+        "a": "For the preliminary application, none. Documents will be requested later."
+      },
+      {
+        "q": "Can I repay early?",
+        "a": "Yes, you can repay all or part of your loan early, without penalties."
+      },
+      {
+        "q": "Is the 2% rate really guaranteed?",
+        "a": "Yes, our nominal rate is fixed and guaranteed for all eligible applications."
+      },
+      {
+        "q": "How long does it take to receive the funds?",
+        "a": "After signing the final offer, funds are transferred within 48 to 72 hours."
+      },
+      {
+        "q": "Does my application commit me to anything?",
+        "a": "No, the simulation and preliminary application are free and without obligation."
+      }
     ]
   },
   "ctaFinal": {
@@ -135,7 +244,8 @@
       "terms": "Terms of Service"
     },
     "copyright": "All rights reserved.",
-    "responsible": "A loan commits you and must be repaid. Verify your repayment capacity before committing."
+    "responsible": "A loan commits you and must be repaid. Verify your repayment capacity before committing.",
+    "contact": "Contact"
   },
   "legal": {
     "privacyTitle": "Privacy Policy",

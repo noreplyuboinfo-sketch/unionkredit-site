@@ -1,5 +1,11 @@
 {
-  "header": { "loans": "Vores Lån", "howItWorks": "Sådan fungerer det", "reviews": "Anmeldelser", "cta": "Ansøg", "slogan": "ENKEL. INTELLIGENT. SIKKER." },
+  "header": {
+    "loans": "Vores Lån",
+    "howItWorks": "Sådan fungerer det",
+    "reviews": "Anmeldelser",
+    "cta": "Ansøg",
+    "slogan": "ENKEL. INTELLIGENT. SIKKER."
+  },
   "hero": {
     "badge": "Fast rente garanteret 2%",
     "title": "Professionelle lån gjort <highlight>hurtige og enkle.</highlight>",
@@ -22,35 +28,77 @@
   "problem": {
     "title": "Hvorfor vælge Union-Kredit?",
     "items": [
-      { "title": "Hurtig", "desc": "Modtag midlerne inden for 48 timer efter endelig accept." },
-      { "title": "100% Online", "desc": "Ingen uendelig papirarbejde." },
-      { "title": "Gennemsigtig", "desc": "Fast rente på 2%, ingen overraskelser." }
+      {
+        "title": "Hurtig",
+        "desc": "Modtag midlerne inden for 48 timer efter endelig accept."
+      },
+      {
+        "title": "100% Online",
+        "desc": "Ingen uendelig papirarbejde."
+      },
+      {
+        "title": "Gennemsigtig",
+        "desc": "Fast rente på 2%, ingen overraskelser."
+      }
     ]
   },
   "offers": {
     "title": "Et lån tilpasset ethvert behov",
     "subtitle": "Opdag vores tilbud.",
     "upTo": "Op til",
-    "conso": { "title": "Personligt Lån", "desc": "Til dine projekter.", "amount": "50.000 €" },
-    "immo": { "title": "Boliglån", "desc": "Køb dit drømmehjem.", "amount": "1.000.000 €" },
-    "travaux": { "title": "Renoveringslån", "desc": "Renover dit hjem.", "amount": "100.000 €" }
+    "conso": {
+      "title": "Personligt Lån",
+      "desc": "Til dine projekter.",
+      "amount": "50.000 €"
+    },
+    "immo": {
+      "title": "Boliglån",
+      "desc": "Køb dit drømmehjem.",
+      "amount": "1.000.000 €"
+    },
+    "travaux": {
+      "title": "Renoveringslån",
+      "desc": "Renover dit hjem.",
+      "amount": "100.000 €"
+    }
   },
   "features": {
     "title": "Fordelene",
     "subtitle": "Designet til at forenkle dit liv.",
     "items": [
-      { "title": "Øjeblikkeligt svar", "desc": "Aftale på 3 minutter." },
-      { "title": "Fast rente 2%", "desc": "Markedets bedste." },
-      { "title": "Maksimal sikkerhed", "desc": "Krypterede data i Europa." },
-      { "title": "Dedikeret support", "desc": "Rådgivere til rådighed 6 dage om ugen." }
+      {
+        "title": "Øjeblikkeligt svar",
+        "desc": "Aftale på 3 minutter."
+      },
+      {
+        "title": "Fast rente 2%",
+        "desc": "Markedets bedste."
+      },
+      {
+        "title": "Maksimal sikkerhed",
+        "desc": "Krypterede data i Europa."
+      },
+      {
+        "title": "Dedikeret support",
+        "desc": "Rådgivere til rådighed 6 dage om ugen."
+      }
     ]
   },
   "howItWorks": {
     "title": "Hvordan fungerer det?",
     "items": [
-      { "title": "Simuler", "desc": "Brug vores lommeregner." },
-      { "title": "Udfyld formularen", "desc": "Udfyld online." },
-      { "title": "Modtag", "desc": "Modtag midlerne." }
+      {
+        "title": "Simuler",
+        "desc": "Brug vores lommeregner."
+      },
+      {
+        "title": "Udfyld formularen",
+        "desc": "Udfyld online."
+      },
+      {
+        "title": "Modtag",
+        "desc": "Modtag midlerne."
+      }
     ]
   },
   "form": {
@@ -64,43 +112,117 @@
       "amount": "Beløp",
       "months": "Måneder"
     },
-    "errors": { "required": "Påkrævet", "email": "Ugyldig e-mail", "phone": "Ugyldig telefon" },
+    "errors": {
+      "required": "Påkrævet",
+      "email": "Ugyldig e-mail",
+      "phone": "Ugyldig telefon"
+    },
     "submit": "Send ansøgning",
     "secureInfo": "Sikker information.",
-    "success": { "title": "Sendt!", "desc": "Vi kontakter dig inden for 24 timer." }
+    "success": {
+      "title": "Sendt!",
+      "desc": "Vi kontakter dig inden for 24 timer."
+    }
   },
   "testimonials": {
     "title": "Hvad vores kunder siger",
     "items": [
-      { "name": "Sophie M.", "role": "Iværksætter", "text": "Hurtigt og til 2%." },
-      { "name": "Marc D.", "role": "Privatperson", "text": "Ingen overraskelser." },
-      { "name": "Julia R.", "role": "Investor", "text": "Top service." },
-      { "name": "Antoine L.", "role": "Håndværker", "text": "Forstår virkeligheden." },
-      { "name": "Marie C.", "role": "Købmand", "text": "Kunne renovere hurtigt." },
-      { "name": "Lucas B.", "role": "Freelancer", "text": "Enkelt og effektivt." },
-      { "name": "Carlos S.", "role": "Arkitekt", "text": "Det bedste valg." },
-      { "name": "Elena F.", "role": "Læge", "text": "Meget hurtig godkendelse." },
-      { "name": "David G.", "role": "Ingeniør", "text": "Fuld gennemsigtighed." },
-      { "name": "Ana P.", "role": "Designer", "text": "Simulatoren er fremragende." }
+      {
+        "name": "Sophie M.",
+        "role": "Iværksætter",
+        "text": "Hurtigt og til 2%."
+      },
+      {
+        "name": "Marc D.",
+        "role": "Privatperson",
+        "text": "Ingen overraskelser."
+      },
+      {
+        "name": "Julia R.",
+        "role": "Investor",
+        "text": "Top service."
+      },
+      {
+        "name": "Antoine L.",
+        "role": "Håndværker",
+        "text": "Forstår virkeligheden."
+      },
+      {
+        "name": "Marie C.",
+        "role": "Købmand",
+        "text": "Kunne renovere hurtigt."
+      },
+      {
+        "name": "Lucas B.",
+        "role": "Freelancer",
+        "text": "Enkelt og effektivt."
+      },
+      {
+        "name": "Carlos S.",
+        "role": "Arkitekt",
+        "text": "Det bedste valg."
+      },
+      {
+        "name": "Elena F.",
+        "role": "Læge",
+        "text": "Meget hurtig godkendelse."
+      },
+      {
+        "name": "David G.",
+        "role": "Ingeniør",
+        "text": "Fuld gennemsigtighed."
+      },
+      {
+        "name": "Ana P.",
+        "role": "Designer",
+        "text": "Simulatoren er fremragende."
+      }
     ]
   },
   "stats": {
     "items": [
-      { "value": "2%", "label": "Fast rente" },
-      { "value": "24t", "label": "Svartid" },
-      { "value": "100%", "label": "Online" },
-      { "value": "8000+", "label": "Tilfredse kunder" }
+      {
+        "value": "2%",
+        "label": "Fast rente"
+      },
+      {
+        "value": "24t",
+        "label": "Svartid"
+      },
+      {
+        "value": "100%",
+        "label": "Online"
+      },
+      {
+        "value": "8000+",
+        "label": "Tilfredse kunder"
+      }
     ]
   },
   "faq": {
     "title": "Ofte stillede spørgsmål",
     "subtitle": "Alt hvad du behøver at vide.",
     "items": [
-      { "q": "Dokumenter?", "a": "Ingen lige nu." },
-      { "q": "Tidlig tilbagebetaling?", "a": "Ja, uden gebyr." },
-      { "q": "Garanteret rente?", "a": "Ja, 2%." },
-      { "q": "Modtagelsestid?", "a": "48 til 72 timer." },
-      { "q": "Bindende?", "a": "Nej." }
+      {
+        "q": "Dokumenter?",
+        "a": "Ingen lige nu."
+      },
+      {
+        "q": "Tidlig tilbagebetaling?",
+        "a": "Ja, uden gebyr."
+      },
+      {
+        "q": "Garanteret rente?",
+        "a": "Ja, 2%."
+      },
+      {
+        "q": "Modtagelsestid?",
+        "a": "48 til 72 timer."
+      },
+      {
+        "q": "Bindende?",
+        "a": "Nej."
+      }
     ]
   },
   "ctaFinal": {
@@ -110,10 +232,20 @@
   },
   "footer": {
     "about": "Union-Kredit genopfinder kredit.",
-    "links": { "title": "Navigation", "loans": "Lån", "howItWorks": "Sådan fungerer det", "reviews": "Anmeldelser" },
-    "legal": { "title": "Juridisk", "privacy": "Privatliv", "terms": "Vilkår" },
+    "links": {
+      "title": "Navigation",
+      "loans": "Lån",
+      "howItWorks": "Sådan fungerer det",
+      "reviews": "Anmeldelser"
+    },
+    "legal": {
+      "title": "Juridisk",
+      "privacy": "Privatliv",
+      "terms": "Vilkår"
+    },
     "copyright": "Alle rettigheder forbeholdes.",
-    "responsible": "Et lån forpligter dig og skal tilbagebetales. Tjek din tilbagebetalingskapasitet, før du forplikter dig."
+    "responsible": "Et lån forpligter dig og skal tilbagebetales. Tjek din tilbagebetalingskapasitet, før du forplikter dig.",
+    "contact": "Kontakt"
   },
   "legal": {
     "privacyBody": "Hos Kredit Union er det vigtigt for os, at du har valgmuligheder og kontrol over, hvordan vi behandler dine personlige data. Vores specialiserede juridiske privatlivsteam gennemgår alle vores produkter i detaljer. Privatlivet er derfor en integreret del af dem.",
