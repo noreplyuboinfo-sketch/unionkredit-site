@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { LegalModal } from '../ui/LegalModal';
 import { Logo } from '../ui/Logo';
 import { Phone, Mail } from 'lucide-react';
+import { WhatsAppIcon } from '../ui/WhatsAppIcon';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -52,14 +53,14 @@ export function Footer() {
             <h4 className="font-bold mb-6 text-lg">{t('contact')}</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
               <li>
-                <a href="tel:+393508938067" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
-                  <Phone className="w-4 h-4 text-brand shrink-0" />
+                <a href="https://wa.me/393508938067" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
+                  <WhatsAppIcon className="w-4 h-4 text-[#25D366] shrink-0" />
                   <span>+39 3508938067</span>
                 </a>
               </li>
               <li>
-                <a href="tel:+31613519042" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
-                  <Phone className="w-4 h-4 text-brand shrink-0" />
+                <a href="https://wa.me/31613519042" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
+                  <WhatsAppIcon className="w-4 h-4 text-[#25D366] shrink-0" />
                   <span>+31 613519042</span>
                 </a>
               </li>

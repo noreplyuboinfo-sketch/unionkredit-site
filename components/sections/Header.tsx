@@ -6,6 +6,7 @@ import { Button } from '../ui/Button';
 import { useState } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Link } from '@/i18n/routing';
+import { WhatsAppIcon } from '../ui/WhatsAppIcon';
 
 export function Header() {
   const t = useTranslations('header');
@@ -17,12 +18,12 @@ export function Header() {
       <div className="bg-ink text-white/80 text-xs py-2 px-4 sm:px-6 border-b border-white/10">
         <div className="max-w-7xl mx-auto flex flex-wrap justify-center sm:justify-between items-center gap-x-4 gap-y-2 text-center">
           <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1.5">
-            <a href="tel:+393508938067" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
-              <Phone className="w-3.5 h-3.5 text-brand" />
+            <a href="https://wa.me/393508938067" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
+              <WhatsAppIcon className="w-3.5 h-3.5 text-[#25D366]" />
               <span>+39 3508938067</span>
             </a>
-            <a href="tel:+31613519042" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
-              <Phone className="w-3.5 h-3.5 text-brand" />
+            <a href="https://wa.me/31613519042" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
+              <WhatsAppIcon className="w-3.5 h-3.5 text-[#25D366]" />
               <span>+31 613519042</span>
             </a>
           </div>
@@ -71,12 +72,12 @@ export function Header() {
           <a href="#reviews" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('reviews')}</a>
           
           <div className="border-t border-gray-100 pt-4 flex flex-col gap-3">
-            <a href="tel:+393508938067" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
-              <Phone className="w-4 h-4 text-brand" />
+            <a href="https://wa.me/393508938067" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
+              <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
               <span>+39 3508938067</span>
             </a>
-            <a href="tel:+31613519042" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
-              <Phone className="w-4 h-4 text-brand" />
+            <a href="https://wa.me/31613519042" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
+              <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
               <span>+31 613519042</span>
             </a>
             <a href="mailto:contact@unionkredit.info" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
