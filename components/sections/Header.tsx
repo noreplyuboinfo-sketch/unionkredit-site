@@ -14,9 +14,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-white/80 border-b border-gray-100">
       {/* Top Bar for Contact Info */}
-      <div className="bg-ink text-white/80 text-xs py-2 px-6 border-b border-white/10">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
-          <div className="flex flex-wrap items-center gap-4">
+      <div className="bg-ink text-white/80 text-xs py-2 px-4 sm:px-6 border-b border-white/10">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-center sm:justify-between items-center gap-x-4 gap-y-2 text-center">
+          <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1.5">
             <a href="tel:+393508938067" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
               <Phone className="w-3.5 h-3.5 text-brand" />
               <span>+39 3508938067</span>
@@ -33,12 +33,12 @@ export function Header() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
         <button 
           onClick={() => { window.location.href = window.location.pathname; }}
           className="hover:opacity-80 transition-opacity cursor-pointer shrink-0"
         >
-          <Logo className="scale-75 sm:scale-100 origin-left" />
+          <Logo />
         </button>
         
         <nav className="hidden md:flex items-center gap-8 font-medium text-ink2">
@@ -65,7 +65,7 @@ export function Header() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-[112px] left-0 w-full bg-white border-b border-gray-100 shadow-xl py-4 px-6 flex flex-col gap-4">
+        <div className="md:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100 shadow-xl py-4 px-6 flex flex-col gap-4">
           <a href="#loans" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('loans')}</a>
           <a href="#how-it-works" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('howItWorks')}</a>
           <a href="#reviews" onClick={() => setIsMobileMenuOpen(false)} className="font-medium text-ink2 hover:text-brand transition-colors py-2">{t('reviews')}</a>

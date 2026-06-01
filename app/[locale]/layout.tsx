@@ -33,8 +33,8 @@ export default async function LocaleLayout({
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale} className={`${inter.variable} ${manrope.variable} scroll-smooth`} suppressHydrationWarning>
-      <body className="overflow-x-hidden w-full" suppressHydrationWarning>
+    <html lang={locale} className={`${inter.variable} ${manrope.variable} scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+      <body className="overflow-x-hidden w-full relative" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
