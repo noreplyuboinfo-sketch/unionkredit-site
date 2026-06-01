@@ -50,21 +50,21 @@ export function Footer() {
           </div>
           <div>
             <h4 className="font-bold mb-6 text-lg">{t('contact')}</h4>
-            <ul className="space-y-4 text-gray-400">
+            <ul className="space-y-4 text-gray-400 text-sm">
               <li>
-                <a href="tel:+393508938067" className="hover:text-white transition-colors flex items-center gap-2">
+                <a href="tel:+393508938067" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
                   <Phone className="w-4 h-4 text-brand shrink-0" />
                   <span>+39 3508938067</span>
                 </a>
               </li>
               <li>
-                <a href="tel:+31613519042" className="hover:text-white transition-colors flex items-center gap-2">
+                <a href="tel:+31613519042" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
                   <Phone className="w-4 h-4 text-brand shrink-0" />
                   <span>+31 613519042</span>
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@unionkredit.info" className="hover:text-white transition-colors flex items-center gap-2 break-all">
+                <a href="mailto:contact@unionkredit.info" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
                   <Mail className="w-4 h-4 text-brand shrink-0" />
                   <span>contact@unionkredit.info</span>
                 </a>
