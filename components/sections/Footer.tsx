@@ -59,9 +59,9 @@ export function Footer() {
                 
               </li>
               <li>
-                <a href="mailto:contact@unionkredit.info" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
+                <a href="mailto:info@unionkredit.pro" className="hover:text-white transition-colors flex items-center gap-2 whitespace-nowrap">
                   <Mail className="w-4 h-4 text-brand shrink-0" />
-                  <span>contact@unionkredit.info</span>
+                  <span>info@unionkredit.pro</span>
                 </a>
               </li>
             </ul>

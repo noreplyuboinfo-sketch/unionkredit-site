@@ -21,9 +21,9 @@ export function Header() {
             
             
           </div>
-          <a href="mailto:contact@unionkredit.info" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
+          <a href="mailto:info@unionkredit.pro" className="flex items-center gap-1.5 hover:text-white transition-colors whitespace-nowrap">
             <Mail className="w-3.5 h-3.5 text-brand" />
-            <span>contact@unionkredit.info</span>
+            <span>info@unionkredit.pro</span>
           </a>
         </div>
       </div>
@@ -68,9 +68,9 @@ export function Header() {
           <div className="border-t border-gray-100 pt-4 flex flex-col gap-3">
             
             
-            <a href="mailto:contact@unionkredit.info" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
+            <a href="mailto:info@unionkredit.pro" className="flex items-center gap-2 text-ink2 hover:text-brand transition-colors text-sm whitespace-nowrap">
               <Mail className="w-4 h-4 text-brand" />
-              <span>contact@unionkredit.info</span>
+              <span>info@unionkredit.pro</span>
             </a>
           </div>
 
