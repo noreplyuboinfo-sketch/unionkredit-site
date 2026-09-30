@@ -21,7 +21,7 @@ export async function sendEmailAction(formData: {
     }
 
     const { data, error } = await resend.emails.send({
-      from: 'Union-Kredit Form <onboarding@resend.dev>',
+      from: 'Union-Kredit Form <contact@unionkredit.pro>',
       to: 'info@unionkredit.pro',
       subject: `Nouvelle demande de prêt - ${firstName} ${lastName}`,
       html: `
