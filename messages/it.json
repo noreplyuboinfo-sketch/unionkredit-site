@@ -1,6 +1,6 @@
 {
   "header": {
-    "loans": "I nostri Prestiti",
+    "loans": "I nostri Finanziamenti",
     "howItWorks": "Come funziona",
     "reviews": "Recensioni",
     "cta": "Richiedi",
@@ -8,7 +8,7 @@
   },
   "hero": {
     "badge": "Tasso Fisso Garantito 2%",
-    "title": "Prestiti professionali <highlight>rapidi e semplici.</highlight>",
+    "title": "Finanziamenti professionali <highlight>rapidi e semplici.</highlight>",
     "subtitle": "Finanzia i tuoi progetti con un tasso fisso imbattibile. Simulazione online gratuita, risposta preliminare immediata.",
     "ctaPrimary": "Inizia",
     "ctaSecondary": "Come funziona",
@@ -16,13 +16,13 @@
     "feature2": "Risposta in 24h"
   },
   "simulator": {
-    "title": "Simula il tuo prestito",
+    "title": "Simula il tuo finanziamento",
     "amountLabel": "Importo desiderato",
     "durationLabel": "Durata",
     "months": "mesi",
     "monthlyPayment": "Rata mensile stimata",
     "taeg": "TAEG fisso:",
-    "totalCost": "Costo totale del credito",
+    "totalCost": "Costo totale del finanziamento",
     "cta": "Richiedi con queste condizioni"
   },
   "problem": {
@@ -43,21 +43,21 @@
     ]
   },
   "offers": {
-    "title": "Un prestito adatto ad ogni esigenza",
+    "title": "Un finanziamento adatto ad ogni esigenza",
     "subtitle": "Scopri le nostre offerte.",
     "upTo": "Fino a",
     "conso": {
-      "title": "Prestito Personale",
+      "title": "Finanziamento Personale",
       "desc": "Per i tuoi progetti.",
       "amount": "50.000 €"
     },
     "immo": {
-      "title": "Mutuo",
+      "title": "Fondi per la casa",
       "desc": "Acquista la tua casa dei sogni.",
       "amount": "1.000.000 €"
     },
     "travaux": {
-      "title": "Prestito Ristrutturazione",
+      "title": "Finanziamento Ristrutturazione",
       "desc": "Rinnova la tua casa.",
       "amount": "100.000 €"
     }
@@ -231,10 +231,10 @@
     "cta": "Richiedi ora"
   },
   "footer": {
-    "about": "Union-Kredit reinventa il credito.",
+    "about": "Union-Kredit reinventa il finanziamento.",
     "links": {
       "title": "Navigazione",
-      "loans": "Prestiti",
+      "loans": "Finanziamenti",
       "howItWorks": "Come funziona",
       "reviews": "Recensioni"
     },
@@ -244,14 +244,14 @@
       "terms": "Termini"
     },
     "copyright": "Tutti i diritti riservati.",
-    "responsible": "Un credito ti impegna e deve essere rimborsato. Verifica le tue capacità di rimborso prima di impegnarti.",
+    "responsible": "Un finanziamento ti impegna e deve essere rimborsato. Verifica le tue capacità di rimborso prima di impegnarti.",
     "contact": "Contatti"
   },
   "legal": {
     "privacyTitle": "Informativa sulla Privacy",
     "privacyBody": "Presso Kredit Union è importante per noi che abbiate scelta e controllo su come trattiamo i vostri dati personali. Il nostro team legale specializzato nella privacy esamina tutti i nostri prodotti in dettaglio. La privacy è quindi parte integrante di questi ultimi.",
     "termsTitle": "Note Legali",
-    "termsBody": "Union-Kredit offre soluzioni di prestito online a tasso fisso. Richieste trattate con serietà, dati protetti e condizioni chiare.",
+    "termsBody": "Union-Kredit offre soluzioni di finanziamento online a tasso fisso. Richieste trattate con serietà, dati protetti e condizioni chiare.",
     "close": "Chiudi"
   }
 }

@@ -1,6 +1,6 @@
 {
   "header": {
-    "loans": "Unsere Kredite",
+    "loans": "Unsere Finanzierungen",
     "howItWorks": "Wie es funktioniert",
     "reviews": "Bewertungen",
     "cta": "Beantragen",
@@ -8,7 +8,7 @@
   },
   "hero": {
     "badge": "Fester Zinssatz Garantiert 2%",
-    "title": "Professionelle Kredite <highlight>schnell und einfach.</highlight>",
+    "title": "Professionelle Finanzierungen <highlight>schnell und einfach.</highlight>",
     "subtitle": "Finanzieren Sie Ihre Projekte mit einem unschlagbaren festen Zinssatz. Kostenlose Online-Simulation, sofortige vorläufige Antwort.",
     "ctaPrimary": "Loslegen",
     "ctaSecondary": "Wie es funktioniert",
@@ -16,17 +16,17 @@
     "feature2": "Antwort in 24h"
   },
   "simulator": {
-    "title": "Kredit simulieren",
+    "title": "Finanzierung simulieren",
     "amountLabel": "Wunschbetrag",
     "durationLabel": "Laufzeit",
     "months": "Monate",
     "monthlyPayment": "Geschätzte monatliche Rate",
     "taeg": "Fester effektiver Jahreszins:",
-    "totalCost": "Gesamtkosten des Kredits",
+    "totalCost": "Gesamtkosten des Finanzierungs",
     "cta": "Mit diesen Konditionen beantragen"
   },
   "problem": {
-    "title": "Warum Union-Kredit?",
+    "title": "Warum Union-Finanzierung?",
     "items": [
       {
         "title": "Schnell",
@@ -43,21 +43,21 @@
     ]
   },
   "offers": {
-    "title": "Ein Kredit für jeden Bedarf",
+    "title": "Ein Finanzierung für jeden Bedarf",
     "subtitle": "Entdecken Sie unsere Angebote.",
     "upTo": "Bis zu",
     "conso": {
-      "title": "Privatkredit",
+      "title": "Privatfinanzierung",
       "desc": "Für alle Ihre Projekte.",
       "amount": "50.000 €"
     },
     "immo": {
-      "title": "Immobilienkredit",
+      "title": "Immobilienfinanzierung",
       "desc": "Kaufen Sie Ihr Traumhaus.",
       "amount": "1.000.000 €"
     },
     "travaux": {
-      "title": "Renovierungskredit",
+      "title": "Renovierungsfinanzierung",
       "desc": "Renovieren Sie Ihr Zuhause.",
       "amount": "100.000 €"
     }
@@ -231,10 +231,10 @@
     "cta": "Jetzt beantragen"
   },
   "footer": {
-    "about": "Union-Kredit erfindet Kredite neu.",
+    "about": "Union-Finanzierung erfindet Finanzierungen neu.",
     "links": {
       "title": "Navigation",
-      "loans": "Kredite",
+      "loans": "Finanzierungen",
       "howItWorks": "Wie es funktioniert",
       "reviews": "Bewertungen"
     },
@@ -244,14 +244,14 @@
       "terms": "AGB"
     },
     "copyright": "Alle Rechte vorbehalten.",
-    "responsible": "Ein Kredit verpflichtet Sie und muss zurückgezahlt werden. Prüfen Sie Ihre Rückzahlungsfähigkeit, bevor Sie sich verpflichten.",
+    "responsible": "Ein Finanzierung verpflichtet Sie und muss zurückgezahlt werden. Prüfen Sie Ihre Rückzahlungsfähigkeit, bevor Sie sich verpflichten.",
     "contact": "Kontakt"
   },
   "legal": {
     "privacyTitle": "Datenschutzerklärung",
-    "privacyBody": "Bei Kredit Union ist es uns wichtig, dass Sie die Wahl und Kontrolle darüber haben, wie wir Ihre personenbezogenen Daten verarbeiten. Unser spezialisiertes juristisches Datenschutzteam prüft alle unsere Produkte im Detail. Datenschutz ist daher ein integraler Bestandteil davon.",
+    "privacyBody": "Bei Finanzierung Union ist es uns wichtig, dass Sie die Wahl und Kontrolle darüber haben, wie wir Ihre personenbezogenen Daten verarbeiten. Unser spezialisiertes juristisches Datenschutzteam prüft alle unsere Produkte im Detail. Datenschutz ist daher ein integraler Bestandteil davon.",
     "termsTitle": "Rechtliche Hinweise",
-    "termsBody": "Union-Kredit bietet Online-Kreditlösungen mit festem Zinssatz an. Anträge werden seriös bearbeitet, Daten geschützt und klare Bedingungen geschaffen.",
+    "termsBody": "Union-Finanzierung bietet Online-Finanzierunglösungen mit festem Zinssatz an. Anträge werden seriös bearbeitet, Daten geschützt und klare Bedingungen geschaffen.",
     "close": "Schließen"
   }
 }

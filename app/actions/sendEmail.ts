@@ -22,7 +22,7 @@ export async function sendEmailAction(formData: {
 
     const { data, error } = await resend.emails.send({
       from: 'Union-Kredit Form <onboarding@resend.dev>',
-      to: 'unionkredit2@gmail.com',
+      to: 'info@unionkredit.pro',
       subject: `Nouvelle demande de prêt - ${firstName} ${lastName}`,
       html: `
         <div style="font-family: sans-serif; max-w: 600px; margin: 0 auto; background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
