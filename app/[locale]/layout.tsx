@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Inter, Manrope } from 'next/font/google';
+import Script from 'next/script';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -34,6 +35,20 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${manrope.variable} scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18487440078"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18487440078');
+          `}
+        </Script>
+      </head>
       <body className="overflow-x-hidden w-full relative" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           {children}
